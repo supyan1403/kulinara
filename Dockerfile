@@ -56,8 +56,6 @@ RUN mkdir -p \
 
 RUN composer dump-autoload --no-dev --classmap-authoritative --no-scripts
 
-RUN php artisan package:discover --ansi -vvv 2>&1
-
 RUN chown -R www-data:www-data storage bootstrap/cache
 
 COPY --chown=www-data:www-data Caddyfile /etc/frankenphp/Caddyfile
