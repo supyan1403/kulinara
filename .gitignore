@@ -40,3 +40,6 @@ resp_credit.json
 header_check.js
 check_saved.php
 query
+
+.vercel
+.env*
