@@ -48,7 +48,10 @@ COPY --from=dependencies --chown=www-data:www-data /app/vendor ./vendor
 COPY --chown=www-data:www-data . .
 COPY --from=assets --chown=www-data:www-data /app/public/build ./public/build
 
-RUN mkdir -p \
+# Buang cache bootstrap hasil build lokal (berisi provider package dev +
+# path Windows) — kalau ikut terbaca, Laravel gagal register provider.
+RUN rm -f bootstrap/cache/*.php \
+    && mkdir -p \
         storage/framework/cache \
         storage/framework/sessions \
         storage/framework/views \
