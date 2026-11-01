@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Animasi menu seluler.
+ *
+ * Menu dibuka sebagai kartu mengambang di atas halaman yang meredup. Tanpa
+ * animasi, kartu itu muncul seketika — mata tidak sempat membaca bahwa ada
+ * lapisan baru, dan tombol hamburger terasa tidak merespons. Durasi 180ms
+ * dipilih supaya terasa spontan: lebih lama dari itu dan menutup menu mulai
+ * terasa menunggu.
+ */
+@keyframes menu-masuk {
+    from {
+        opacity: 0;
+        transform: translateY(-8px) scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes backdrop-masuk {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*
+ * Motif latar "belah ketupat rempah".
+ *
+ * Halaman profil terasa terlalu polos saat latarnya hanya warm-cream rata.
+ * Motif ini mengulang diamond dari logo KULINARA — dua belah ketupat bersarang
+ * plus satu titik permata di tengah — sebagai ornamen batik Nusantara yang
+ * tenang. Ia sengaja sangat pudar (opasitas 5–6%): cukup untuk memberi tekstur
+ * pada bidang kosong, tapi tidak boleh bersaing dengan kartu, teks, atau foto.
+ *
+ * Dibuat sebagai data-URI SVG agar tidak menambah permintaan jaringan dan
+ * tetap tajam di layar HiDPI. Warna dasar warm-cream disertakan supaya kelas
+ * ini bisa dipakai mandiri tanpa kelas latar tambahan.
+ */
+.bg-motif-rempah {
+    background-color: #fbf9f4;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke='%23044d3c' stroke-opacity='0.06' stroke-width='1'%3E%3Cpath d='M32 4 60 32 32 60 4 32Z'/%3E%3Cpath d='M32 18 46 32 32 46 18 32Z'/%3E%3C/g%3E%3Cpath d='M32 27 37 32 32 37 27 32Z' fill='%23044d3c' fill-opacity='0.05'/%3E%3C/svg%3E");
+    background-size: 64px 64px;
+}

@@ -1,0 +1,3422 @@
+[
+  {
+    "slug": "apem-putih",
+    "judul": "Apem putih",
+    "berkas": "images/resep/apem-putih.jpg",
+    "penulis": "Yosri at Malay Wikipedia",
+    "lisensi": "GFDL",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AYosriApamBerkuah.jpg",
+    "berkas_sumber": "YosriApamBerkuah.jpg"
+  },
+  {
+    "slug": "ayam-suwir",
+    "judul": "Ayam suwir",
+    "berkas": "images/resep/ayam-suwir.jpg",
+    "penulis": "Sofi Solihah",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAyam%20Suwir%20Rica-Rica%201.jpg",
+    "berkas_sumber": "Ayam Suwir Rica-Rica 1.jpg"
+  },
+  {
+    "slug": "bubur-gunting-banjar",
+    "judul": "Bubur gunting Banjar",
+    "berkas": "images/resep/bubur-gunting-banjar.jpg",
+    "penulis": "Tim WikiPuluram- WikiBanua",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABubur%20Gunting%20001.jpg",
+    "berkas_sumber": "Bubur Gunting 001.jpg"
+  },
+  {
+    "slug": "bubur-madura",
+    "judul": "Bubur Madura",
+    "berkas": "images/resep/bubur-madura.jpg",
+    "penulis": "Butterfly Beauty2003",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATajin%20Sobih%20Burneh%20Bangkalan.jpg",
+    "berkas_sumber": "Tajin Sobih Burneh Bangkalan.jpg"
+  },
+  {
+    "slug": "bubur-randang",
+    "judul": "Bubur randang",
+    "berkas": "images/resep/bubur-randang.jpg",
+    "penulis": "Tim WikiPuluram- WikiBanua",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABubur%20Randang%20005.jpg",
+    "berkas_sumber": "Bubur Randang 005.jpg"
+  },
+  {
+    "slug": "engkak-medok",
+    "judul": "Engkak Medok",
+    "berkas": "images/resep/engkak-medok.jpg",
+    "penulis": "Losstreak",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AEngkak%20Medok.jpg",
+    "berkas_sumber": "Engkak Medok.jpg"
+  },
+  {
+    "slug": "ikan-kuah-kuning",
+    "judul": "Ikan Kuah Kuning",
+    "berkas": "images/resep/ikan-kuah-kuning.jpg",
+    "penulis": "Oceanmuse",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AIkan%20Kuah%20Kuning-2.jpg",
+    "berkas_sumber": "Ikan Kuah Kuning-2.jpg"
+  },
+  {
+    "slug": "inasua",
+    "judul": "Inasua",
+    "berkas": "images/resep/inasua.jpg",
+    "penulis": "Setyaning Pawestri",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AInasua%20Maluku.jpg",
+    "berkas_sumber": "Inasua Maluku.jpg"
+  },
+  {
+    "slug": "kelempang",
+    "judul": "Kelempang",
+    "berkas": "images/resep/kelempang.jpg",
+    "penulis": "Cendy00",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKelempang.jpg",
+    "berkas_sumber": "Kelempang.jpg"
+  },
+  {
+    "slug": "kue-apem",
+    "judul": "Kue apem",
+    "berkas": "images/resep/kue-apem.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKue%20apem%20Pasar%20Terapung%20Lok%20Baintan.jpg",
+    "berkas_sumber": "Kue apem Pasar Terapung Lok Baintan.jpg"
+  },
+  {
+    "slug": "lapis-nanas",
+    "judul": "Lapis nanas",
+    "berkas": "images/resep/lapis-nanas.jpg",
+    "penulis": "Eryantii",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKue%20Lapis%20Nanas%20dengan%20Ciri%20Khas%20Kota%20Palembang.jpg",
+    "berkas_sumber": "Kue Lapis Nanas dengan Ciri Khas Kota Palembang.jpg"
+  },
+  {
+    "slug": "lemang",
+    "judul": "Lemang",
+    "berkas": "images/resep/lemang.jpg",
+    "penulis": "Undeka 11",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALamang%20Tapai%20khas%20Sumatera%20barat.jpg",
+    "berkas_sumber": "Lamang Tapai khas Sumatera barat.jpg"
+  },
+  {
+    "slug": "lontong-tahu",
+    "judul": "Lontong tahu",
+    "berkas": "images/resep/lontong-tahu.jpg",
+    "penulis": "Candramawa99",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALontong%20Tahu%20khas%20Blora%2002.jpg",
+    "berkas_sumber": "Lontong Tahu khas Blora 02.jpg"
+  },
+  {
+    "slug": "manan-sahmin",
+    "judul": "Manan Sahmin",
+    "berkas": "images/resep/manan-sahmin.jpg",
+    "penulis": "Eryantii",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AManan%20Sahmin%20Khas%20Kota%20Palembang.jpg",
+    "berkas_sumber": "Manan Sahmin Khas Kota Palembang.jpg"
+  },
+  {
+    "slug": "martabak-mini",
+    "judul": "Martabak mini",
+    "berkas": "images/resep/martabak-mini.jpg",
+    "penulis": "Pak Dian",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMartabak%20mini.jpg",
+    "berkas_sumber": "Martabak mini.jpg"
+  },
+  {
+    "slug": "martabak-sayur-telur-ayam",
+    "judul": "Martabak sayur telur ayam",
+    "berkas": "images/resep/martabak-sayur-telur-ayam.jpg",
+    "penulis": "Eryantii",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMartabak%20Sayur%20Khas%20Palembang.jpg",
+    "berkas_sumber": "Martabak Sayur Khas Palembang.jpg"
+  },
+  {
+    "slug": "model-gandum",
+    "judul": "Model Gandum",
+    "berkas": "images/resep/model-gandum.jpg",
+    "penulis": "Eryantii",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AModel%20Gandum%20Palembang.jpg",
+    "berkas_sumber": "Model Gandum Palembang.jpg"
+  },
+  {
+    "slug": "nasi-serpang",
+    "judul": "Nasi Serpang",
+    "berkas": "images/resep/nasi-serpang.jpg",
+    "penulis": "Alfiyah Rizzy Afdiquni",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Serpang%20Bangkalan.jpg",
+    "berkas_sumber": "Nasi Serpang Bangkalan.jpg"
+  },
+  {
+    "slug": "pangsit-ikan",
+    "judul": "Pangsit ikan",
+    "berkas": "images/resep/pangsit-ikan.jpg",
+    "penulis": "Muchtarrprincess",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APangsit%20Ikan%20(%20Khas%20Palembang%20Resto%20Vico).jpg",
+    "berkas_sumber": "Pangsit Ikan ( Khas Palembang Resto Vico).jpg"
+  },
+  {
+    "slug": "pangsit-nanas",
+    "judul": "Pangsit nanas",
+    "berkas": "images/resep/pangsit-nanas.jpg",
+    "penulis": "Nasywaaf",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APangsit%20Nanas%20Prabumulih.jpg",
+    "berkas_sumber": "Pangsit Nanas Prabumulih.jpg"
+  },
+  {
+    "slug": "pempek-adaan",
+    "judul": "Pempek adaan",
+    "berkas": "images/resep/pempek-adaan.jpg",
+    "penulis": "Mm4tchaaa",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APempek%20Adaan%20khas%20Palembang.jpg",
+    "berkas_sumber": "Pempek Adaan khas Palembang.jpg"
+  },
+  {
+    "slug": "pempek-keriting",
+    "judul": "Pempek Keriting",
+    "berkas": "images/resep/pempek-keriting.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APempek.JPG",
+    "berkas_sumber": "Pempek.JPG"
+  },
+  {
+    "slug": "pempek-lenjer",
+    "judul": "Pempek Lenjer",
+    "berkas": "images/resep/pempek-lenjer.jpg",
+    "penulis": "Mm4tchaaa",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APempek%20Lenjer%20Kecil%20khas%20Palembang.jpg",
+    "berkas_sumber": "Pempek Lenjer Kecil khas Palembang.jpg"
+  },
+  {
+    "slug": "pempek-tahu",
+    "judul": "Pempek tahu",
+    "berkas": "images/resep/pempek-tahu.jpg",
+    "penulis": "Mm4tchaaa",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APempek%20Isi%20Tahu%20khas%20Palembang.jpg",
+    "berkas_sumber": "Pempek Isi Tahu khas Palembang.jpg"
+  },
+  {
+    "slug": "pepes-mlanding-teri",
+    "judul": "Pepes Mlanding Teri",
+    "berkas": "images/resep/pepes-mlanding-teri.jpg",
+    "penulis": "Sabil Khoer Al Munawar",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APepes%20Mlanding%20Teri%2001.jpg",
+    "berkas_sumber": "Pepes Mlanding Teri 01.jpg"
+  },
+  {
+    "slug": "pindang-tembakang",
+    "judul": "Pindang Tembakang",
+    "berkas": "images/resep/pindang-tembakang.jpg",
+    "penulis": "Zeefra",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APindang%20Ikan%20Tembakang.jpg",
+    "berkas_sumber": "Pindang Ikan Tembakang.jpg"
+  },
+  {
+    "slug": "pindang-tulang",
+    "judul": "Pindang tulang",
+    "berkas": "images/resep/pindang-tulang.jpg",
+    "penulis": "Muchtarrprincess",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APindang%20Tulang%20Sapi.jpg",
+    "berkas_sumber": "Pindang Tulang Sapi.jpg"
+  },
+  {
+    "slug": "rujak",
+    "judul": "Rujak",
+    "berkas": "images/resep/rujak.jpg",
+    "penulis": "Yu Chu Chin",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARojak%20sotong%20in%20Kuala%20Belait%2C%20Brunei%20-%2002.jpg",
+    "berkas_sumber": "Rojak sotong in Kuala Belait, Brunei - 02.jpg"
+  },
+  {
+    "slug": "rujak-bulung",
+    "judul": "Rujak bulung",
+    "berkas": "images/resep/rujak-bulung.jpg",
+    "penulis": "Fitri Penyalai",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARujak%20Bulung%20Buni.jpg",
+    "berkas_sumber": "Rujak Bulung Buni.jpg"
+  },
+  {
+    "slug": "rujak-cuka",
+    "judul": "Rujak cuka",
+    "berkas": "images/resep/rujak-cuka.jpg",
+    "penulis": "Salm Abdullah",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARujak%20cuka%201.jpg",
+    "berkas_sumber": "Rujak cuka 1.jpg"
+  },
+  {
+    "slug": "sambal-nanas",
+    "judul": "Sambal nanas",
+    "berkas": "images/resep/sambal-nanas.jpg",
+    "penulis": "Windi Utari",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASAMBAL%20NANAS.jpg",
+    "berkas_sumber": "SAMBAL NANAS.jpg"
+  },
+  {
+    "slug": "tahu-guling",
+    "judul": "Tahu guling",
+    "berkas": "images/resep/tahu-guling.jpg",
+    "penulis": "Risanprasetyo/Febri Ady Prasetyo",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATahu%20guling%20makanan%20khas%20Jogja.jpg",
+    "berkas_sumber": "Tahu guling makanan khas Jogja.jpg"
+  },
+  {
+    "slug": "wajik-nanas",
+    "judul": "Wajik nanas",
+    "berkas": "images/resep/wajik-nanas.jpg",
+    "penulis": "Librarean",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AWajik%20Nanas%20Prabumulih%20Toko%20Melati.jpg",
+    "berkas_sumber": "Wajik Nanas Prabumulih Toko Melati.jpg"
+  },
+  {
+    "slug": "es-buah",
+    "judul": "Es buah",
+    "berkas": "images/resep/es-buah.jpg",
+    "penulis": "Jabibruh",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AEs%20Buah%20MbokDe.jpg",
+    "berkas_sumber": "Es Buah MbokDe.jpg"
+  },
+  {
+    "slug": "es-campur",
+    "judul": "Es campur",
+    "berkas": "images/resep/es-campur.jpg",
+    "penulis": "Thank You (25 Millions ) views",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AEs%20Campur%202025.jpg",
+    "berkas_sumber": "Es Campur 2025.jpg"
+  },
+  {
+    "slug": "es-doger",
+    "judul": "Es doger",
+    "berkas": "images/resep/es-doger.jpg",
+    "penulis": "SATELIT BM",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APenjual%20Es%20Doger%20Padjadjaran%20Di%20Kebumen%20Jateng%20Indonesia.jpg",
+    "berkas_sumber": "Penjual Es Doger Padjadjaran Di Kebumen Jateng Indonesia.jpg"
+  },
+  {
+    "slug": "es-kelapa-muda",
+    "judul": "Es kelapa muda",
+    "berkas": "images/resep/es-kelapa-muda.jpg",
+    "penulis": "mararie",
+    "lisensi": "CC BY-SA 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKlappermelk%20kelapa%20muda.jpg",
+    "berkas_sumber": "Klappermelk kelapa muda.jpg"
+  },
+  {
+    "slug": "es-kepal",
+    "judul": "Es kepal",
+    "berkas": "images/resep/es-kepal.jpg",
+    "penulis": "Cun Cun",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AEs%20kepal%20milo%20Jakarta%20Juli%20218.jpg",
+    "berkas_sumber": "Es kepal milo Jakarta Juli 218.jpg"
+  },
+  {
+    "slug": "es-teler",
+    "judul": "Es teler",
+    "berkas": "images/resep/es-teler.jpg",
+    "penulis": "Nola yudistira",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AEs%20teler.jpg",
+    "berkas_sumber": "Es teler.jpg"
+  },
+  {
+    "slug": "bakmoy",
+    "judul": "Bakmoy",
+    "berkas": "images/resep/bakmoy.jpg",
+    "penulis": "Crisco 1492",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABakmoy%20ordered%20in%20Yogyakarta%2001.jpg",
+    "berkas_sumber": "Bakmoy ordered in Yogyakarta 01.jpg"
+  },
+  {
+    "slug": "krengsengan",
+    "judul": "Krengsengan",
+    "berkas": "images/resep/krengsengan.jpg",
+    "penulis": "Abdul Hanif Arromy",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKrengsengan%20Bekicot%20204517.jpg",
+    "berkas_sumber": "Krengsengan Bekicot 204517.jpg"
+  },
+  {
+    "slug": "mie-goreng",
+    "judul": "Mie goreng",
+    "berkas": "images/resep/mie-goreng.jpg",
+    "penulis": "Cun Cun",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMie%20goreng%20Laiker.jpg",
+    "berkas_sumber": "Mie goreng Laiker.jpg"
+  },
+  {
+    "slug": "nasi-goreng",
+    "judul": "Nasi goreng",
+    "berkas": "images/resep/nasi-goreng.jpg",
+    "penulis": "Astari28",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20goreng%20kampung%203.jpg",
+    "berkas_sumber": "Nasi goreng kampung 3.jpg"
+  },
+  {
+    "slug": "nasi-gurih",
+    "judul": "Nasi gurih",
+    "berkas": "images/resep/nasi-gurih.jpg",
+    "penulis": "Lim Natee",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Gurih%20Khas%20Medan.jpg",
+    "berkas_sumber": "Nasi Gurih Khas Medan.jpg"
+  },
+  {
+    "slug": "arem-arem",
+    "judul": "Arem-arem",
+    "berkas": "images/resep/arem-arem.jpg",
+    "penulis": "Wiwik P",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AArem-arem%20terbuka%202.jpg",
+    "berkas_sumber": "Arem-arem terbuka 2.jpg"
+  },
+  {
+    "slug": "botok",
+    "judul": "Botok",
+    "berkas": "images/resep/botok.jpg",
+    "penulis": "Wibowo Djatmiko (Wie146)",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKupang%20lont%20220717-190234%20krat.jpg",
+    "berkas_sumber": "Kupang lont 220717-190234 krat.jpg"
+  },
+  {
+    "slug": "lemper",
+    "judul": "Lemper",
+    "berkas": "images/resep/lemper.jpg",
+    "penulis": "SarKaLay စာကလေး",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3A%E1%80%84%E1%80%BE%E1%80%80%E1%80%BA%E1%80%95%E1%80%BB%E1%80%B1%E1%80%AC%E1%80%91%E1%80%99%E1%80%84%E1%80%BA%E1%80%B8%E1%80%96%E1%80%80%E1%80%BA%E1%80%91%E1%80%AF%E1%80%90%E1%80%BA.jpg",
+    "berkas_sumber": "ငှက်ပျောထမင်းဖက်ထုတ်.jpg"
+  },
+  {
+    "slug": "lontong",
+    "judul": "Lontong",
+    "berkas": "images/resep/lontong.jpg",
+    "penulis": "Candramawa99",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALontong%20Tuyuhan%2009.jpg",
+    "berkas_sumber": "Lontong Tuyuhan 09.jpg"
+  },
+  {
+    "slug": "nasi-bakar",
+    "judul": "Nasi bakar",
+    "berkas": "images/resep/nasi-bakar.jpg",
+    "penulis": "Cun Cun",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20bakar%20di%20Nagoya%20Batam.jpg",
+    "berkas_sumber": "Nasi bakar di Nagoya Batam.jpg"
+  },
+  {
+    "slug": "otak-otak",
+    "judul": "Otak-otak",
+    "berkas": "images/resep/otak-otak.jpg",
+    "penulis": "Dr.Francostein1975",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANyonya%20Otak-Otak.jpg",
+    "berkas_sumber": "Nyonya Otak-Otak.jpg"
+  },
+  {
+    "slug": "pepes",
+    "judul": "Pepes",
+    "berkas": "images/resep/pepes.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APepes%20Daging.jpg",
+    "berkas_sumber": "Pepes Daging.jpg"
+  },
+  {
+    "slug": "nasi-bungkus",
+    "judul": "Nasi bungkus",
+    "berkas": "images/resep/nasi-bungkus.jpg",
+    "penulis": "Robb1e",
+    "lisensi": "CC BY-SA 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20bungkus%20Bali.jpg",
+    "berkas_sumber": "Nasi bungkus Bali.jpg"
+  },
+  {
+    "slug": "nasi-campur",
+    "judul": "Nasi campur",
+    "berkas": "images/resep/nasi-campur.jpg",
+    "penulis": "Wiki Asmah",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20campur%20-%2001.jpg",
+    "berkas_sumber": "Nasi campur - 01.jpg"
+  },
+  {
+    "slug": "nasi-kotak",
+    "judul": "Nasi kotak",
+    "berkas": "images/resep/nasi-kotak.jpg",
+    "penulis": "Dnawdoc",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20kuning%20nasi%20kotak.jpg",
+    "berkas_sumber": "Nasi kuning nasi kotak.jpg"
+  },
+  {
+    "slug": "tumpeng",
+    "judul": "Tumpeng",
+    "berkas": "images/resep/tumpeng.jpg",
+    "penulis": "Fidii",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASega%20Tumpeng.jpg",
+    "berkas_sumber": "Sega Tumpeng.jpg"
+  },
+  {
+    "slug": "rujak-bebek",
+    "judul": "Rujak bebek",
+    "berkas": "images/resep/rujak-bebek.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARujak%20Bebek%20Pasar%20Baru.JPG",
+    "berkas_sumber": "Rujak Bebek Pasar Baru.JPG"
+  },
+  {
+    "slug": "rujak-buah",
+    "judul": "Rujak buah",
+    "berkas": "images/resep/rujak-buah.jpg",
+    "penulis": "Raflinoer32",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARujak.jpg",
+    "berkas_sumber": "Rujak.jpg"
+  },
+  {
+    "slug": "rujak-cingur",
+    "judul": "Rujak cingur",
+    "berkas": "images/resep/rujak-cingur.jpg",
+    "penulis": "Kakakku keren",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARujak%20Cingur%20khas%20Jawa%20Timur%2CIndonesia%20dengan%20kombinasi%20sayuran%20dan%20kerupuk%20sebagai%20pelengkap.jpg",
+    "berkas_sumber": "Rujak Cingur khas Jawa Timur,Indonesia dengan kombinasi sayuran dan kerupuk sebagai pelengkap.jpg"
+  },
+  {
+    "slug": "cireng",
+    "judul": "Cireng",
+    "berkas": "images/resep/cireng.jpg",
+    "penulis": "AWG97",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ACireng%20indonesian%20snack.jpg",
+    "berkas_sumber": "Cireng indonesian snack.jpg"
+  },
+  {
+    "slug": "rujak-juhi",
+    "judul": "Rujak juhi",
+    "berkas": "images/resep/rujak-juhi.jpg",
+    "penulis": "Cun Cun",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARujak%20juhi%20Encim%2068%20Jakarta.jpg",
+    "berkas_sumber": "Rujak juhi Encim 68 Jakarta.jpg"
+  },
+  {
+    "slug": "rujak-kuah-pindang",
+    "judul": "Rujak kuah pindang",
+    "berkas": "images/resep/rujak-kuah-pindang.jpg",
+    "penulis": "Okkisafire",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARujak%20kuah%20pindang.jpg",
+    "berkas_sumber": "Rujak kuah pindang.jpg"
+  },
+  {
+    "slug": "rujak-shanghai",
+    "judul": "Rujak Shanghai",
+    "berkas": "images/resep/rujak-shanghai.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARujak%20Shanghai%201.jpg",
+    "berkas_sumber": "Rujak Shanghai 1.jpg"
+  },
+  {
+    "slug": "bajigur",
+    "judul": "Bajigur",
+    "berkas": "images/resep/bajigur.jpg",
+    "penulis": "Kembangraps",
+    "lisensi": "CC0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABajigur%20DSC%201981.jpg",
+    "berkas_sumber": "Bajigur DSC 1981.jpg"
+  },
+  {
+    "slug": "cendol",
+    "judul": "Cendol",
+    "berkas": "images/resep/cendol.jpg",
+    "penulis": "Wiki Farazi",
+    "lisensi": "CC0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKampung%20Paya%20Jaras%20Tengah%2C%20Selangor%2020250112%20111330.jpg",
+    "berkas_sumber": "Kampung Paya Jaras Tengah, Selangor 20250112 111330.jpg"
+  },
+  {
+    "slug": "dadar-gulung",
+    "judul": "Dadar gulung",
+    "berkas": "images/resep/dadar-gulung.jpg",
+    "penulis": "AlejandroLinaresGarcia",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AFeriaCulturasAmigas11.JPG",
+    "berkas_sumber": "FeriaCulturasAmigas11.JPG"
+  },
+  {
+    "slug": "gudeg",
+    "judul": "Gudeg",
+    "berkas": "images/resep/gudeg.jpg",
+    "penulis": "Wiwik P",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALonthong%20opor.jpg",
+    "berkas_sumber": "Lonthong opor.jpg"
+  },
+  {
+    "slug": "klappertaart",
+    "judul": "Klappertaart",
+    "berkas": "images/resep/klappertaart.jpg",
+    "penulis": "Tumanisme",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKlapertart.jpg",
+    "berkas_sumber": "Klapertart.jpg"
+  },
+  {
+    "slug": "klepon",
+    "judul": "Klepon",
+    "berkas": "images/resep/klepon.jpg",
+    "penulis": "Suhendro winarso",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKlepon%20CC%20BY%20SA%204.0%20Suhendro%20Winarso.jpg",
+    "berkas_sumber": "Klepon CC BY SA 4.0 Suhendro Winarso.jpg"
+  },
+  {
+    "slug": "kolak",
+    "judul": "Kolak",
+    "berkas": "images/resep/kolak.jpg",
+    "penulis": "Abdul Hanif Arromy",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKolak%20Tape.jpg",
+    "berkas_sumber": "Kolak Tape.jpg"
+  },
+  {
+    "slug": "kue-rangi",
+    "judul": "Kue rangi",
+    "berkas": "images/resep/kue-rangi.jpg",
+    "penulis": "Wibowo Djatmiko (Wie146)",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARangi%20170305-0092%20ipb.JPG",
+    "berkas_sumber": "Rangi 170305-0092 ipb.JPG"
+  },
+  {
+    "slug": "loder",
+    "judul": "Loder",
+    "berkas": "images/resep/loder.jpg",
+    "penulis": "AlexLoder",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALeonardsleeOLD%2BNEW.jpg",
+    "berkas_sumber": "LeonardsleeOLD+NEW.jpg"
+  },
+  {
+    "slug": "nasi-kuning",
+    "judul": "Nasi kuning",
+    "berkas": "images/resep/nasi-kuning.jpg",
+    "penulis": "Wiwik P",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20kuning%20kotak.jpg",
+    "berkas_sumber": "Nasi kuning kotak.jpg"
+  },
+  {
+    "slug": "nasi-uduk",
+    "judul": "Nasi uduk",
+    "berkas": "images/resep/nasi-uduk.jpg",
+    "penulis": "Windi Utari",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABUMBU%20NASI%20UDUK%20(tanpa%20tulisan).png",
+    "berkas_sumber": "BUMBU NASI UDUK (tanpa tulisan).png"
+  },
+  {
+    "slug": "rendang",
+    "judul": "Rendang",
+    "berkas": "images/resep/rendang.jpg",
+    "penulis": "Deni Dahniel",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AD2D%209945%20wikimedia2020%20deni%20dahniel%20randang.jpg",
+    "berkas_sumber": "D2D 9945 wikimedia2020 deni dahniel randang.jpg"
+  },
+  {
+    "slug": "sayur-lodeh",
+    "judul": "Sayur lodeh",
+    "berkas": "images/resep/sayur-lodeh.jpg",
+    "penulis": "Dodyghava",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APakcoy%20Hydroponic.jpg",
+    "berkas_sumber": "Pakcoy Hydroponic.jpg"
+  },
+  {
+    "slug": "serundeng",
+    "judul": "Serundeng",
+    "berkas": "images/resep/serundeng.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASerundeng%20pedas%20khas%20Solo.JPG",
+    "berkas_sumber": "Serundeng pedas khas Solo.JPG"
+  },
+  {
+    "slug": "tongseng",
+    "judul": "Tongseng",
+    "berkas": "images/resep/tongseng.jpg",
+    "penulis": "Irhanz",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATongseng%20Sapi.jpg",
+    "berkas_sumber": "Tongseng Sapi.jpg"
+  },
+  {
+    "slug": "urap",
+    "judul": "Urap",
+    "berkas": "images/resep/urap.jpg",
+    "penulis": "D.W. Fisher-Freberg",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAnyang%20Minang.JPG",
+    "berkas_sumber": "Anyang Minang.JPG"
+  },
+  {
+    "slug": "kerak-telor",
+    "judul": "Kerak Telor",
+    "berkas": "images/resep/kerak-telor.jpg",
+    "penulis": "Naval Scene",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABir%20Pletok%20dan%20Kerak%20Telor%2020240622%20112819.jpg",
+    "berkas_sumber": "Bir Pletok dan Kerak Telor 20240622 112819.jpg"
+  },
+  {
+    "slug": "martabak",
+    "judul": "Martabak",
+    "berkas": "images/resep/martabak.jpg",
+    "penulis": "siska maria eviline",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMartabak%20Har.jpg",
+    "berkas_sumber": "Martabak Har.jpg"
+  },
+  {
+    "slug": "sate-telur",
+    "judul": "Sate telur",
+    "berkas": "images/resep/sate-telur.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABubur%20Ayam%20Eggs%20Satay.JPG",
+    "berkas_sumber": "Bubur Ayam Eggs Satay.JPG"
+  },
+  {
+    "slug": "tahu-telur",
+    "judul": "Tahu telur",
+    "berkas": "images/resep/tahu-telur.jpg",
+    "penulis": "Gunarta",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATahu%20telur%20in%20Banyuwangi.jpg",
+    "berkas_sumber": "Tahu telur in Banyuwangi.jpg"
+  },
+  {
+    "slug": "telur-asin",
+    "judul": "Telur asin",
+    "berkas": "images/resep/telur-asin.jpg",
+    "penulis": "Abdul Hanif Arromy",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AJombang%20Fest%202025%20094527.jpg",
+    "berkas_sumber": "Jombang Fest 2025 094527.jpg"
+  },
+  {
+    "slug": "telur-balado",
+    "judul": "Telur balado",
+    "berkas": "images/resep/telur-balado.jpg",
+    "penulis": "D.W. Fisher-Freberg",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATalua%20balado.JPG",
+    "berkas_sumber": "Talua balado.JPG"
+  },
+  {
+    "slug": "telur-pindang",
+    "judul": "Telur pindang",
+    "berkas": "images/resep/telur-pindang.jpg",
+    "penulis": "Mdsheth1986",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATelur%20Pindang%20Johor.jpg",
+    "berkas_sumber": "Telur Pindang Johor.jpg"
+  },
+  {
+    "slug": "arsik",
+    "judul": "Arsik",
+    "berkas": "images/resep/arsik.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AArsik%20Ikan%20Mas%202.jpg",
+    "berkas_sumber": "Arsik Ikan Mas 2.jpg"
+  },
+  {
+    "slug": "asam-pedas",
+    "judul": "Asam pedas",
+    "berkas": "images/resep/asam-pedas.jpg",
+    "penulis": "Cun Cun",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASop%20Ikan%20Asam%20Pedas%20Batam.jpg",
+    "berkas_sumber": "Sop Ikan Asam Pedas Batam.jpg"
+  },
+  {
+    "slug": "gulai-ikan",
+    "judul": "Gulai ikan",
+    "berkas": "images/resep/gulai-ikan.jpg",
+    "penulis": "D.W. Fisher-Freberg",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AGulai%20kerapu.JPG",
+    "berkas_sumber": "Gulai kerapu.JPG"
+  },
+  {
+    "slug": "ikan-asin",
+    "judul": "Ikan asin",
+    "berkas": "images/resep/ikan-asin.jpg",
+    "penulis": "Dody.bukittinggi",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKapal%20Bagan.jpg",
+    "berkas_sumber": "Kapal Bagan.jpg"
+  },
+  {
+    "slug": "ikan-bakar",
+    "judul": "Ikan bakar",
+    "berkas": "images/resep/ikan-bakar.jpg",
+    "penulis": "Ana Ainina",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AIkang%20Oci%20Bakar%20deng%20Dabu-dabu%202.jpg",
+    "berkas_sumber": "Ikang Oci Bakar deng Dabu-dabu 2.jpg"
+  },
+  {
+    "slug": "ikan-pepes",
+    "judul": "Ikan pepes",
+    "berkas": "images/resep/ikan-pepes.jpg",
+    "penulis": "Brunk-Tan",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APepes-Zutaten.jpg",
+    "berkas_sumber": "Pepes-Zutaten.jpg"
+  },
+  {
+    "slug": "pekasam",
+    "judul": "Pekasam",
+    "berkas": "images/resep/pekasam.jpg",
+    "penulis": "Ezagren (bicara / talk)",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AIwak%20Pakasam%20Basanga.JPG",
+    "berkas_sumber": "Iwak Pakasam Basanga.JPG"
+  },
+  {
+    "slug": "pempek",
+    "judul": "Pempek",
+    "berkas": "images/resep/pempek.jpg",
+    "penulis": "Swarabakti",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKapal%20selem%20becuko%20(blank).png",
+    "berkas_sumber": "Kapal selem becuko (blank).png"
+  },
+  {
+    "slug": "pindang",
+    "judul": "Pindang",
+    "berkas": "images/resep/pindang.jpg",
+    "penulis": "Indonesiagood",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AIkan%20Pindang%20Goreng.jpg",
+    "berkas_sumber": "Ikan Pindang Goreng.jpg"
+  },
+  {
+    "slug": "cucur",
+    "judul": "Cucur",
+    "berkas": "images/resep/cucur.jpg",
+    "penulis": "Cun Cun",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKue%20Cucur%2C%20Jakarta%2C%20July%204%202018.jpg",
+    "berkas_sumber": "Kue Cucur, Jakarta, July 4 2018.jpg"
+  },
+  {
+    "slug": "jagung-bakar",
+    "judul": "Jagung bakar",
+    "berkas": "images/resep/jagung-bakar.jpg",
+    "penulis": "Deerpeter",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AJagung%20bakar.jpg",
+    "berkas_sumber": "Jagung bakar.jpg"
+  },
+  {
+    "slug": "jagung-goreng",
+    "judul": "Jagung goreng",
+    "berkas": "images/resep/jagung-goreng.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AJagung%20goreng%203.jpg",
+    "berkas_sumber": "Jagung goreng 3.jpg"
+  },
+  {
+    "slug": "perkedel-jagung",
+    "judul": "Perkedel jagung",
+    "berkas": "images/resep/perkedel-jagung.jpg",
+    "penulis": "Rachmat04",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AWikimedia%20Indonesia's%2013th%20birthday%20celebrations%2C%20Jakarta%3B%20September%202021%20(09).jpg",
+    "berkas_sumber": "Wikimedia Indonesia's 13th birthday celebrations, Jakarta; September 2021 (09).jpg"
+  },
+  {
+    "slug": "sayur-asem",
+    "judul": "Sayur asem",
+    "berkas": "images/resep/sayur-asem.jpg",
+    "penulis": "D.W. Fisher-Freberg",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASayur%20asem.JPG",
+    "berkas_sumber": "Sayur asem.JPG"
+  },
+  {
+    "slug": "abon",
+    "judul": "Abon",
+    "berkas": "images/resep/abon.jpg",
+    "penulis": "Wiwik P",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APastel%20kering%20manis.jpg",
+    "berkas_sumber": "Pastel kering manis.jpg"
+  },
+  {
+    "slug": "bakso",
+    "judul": "Bakso",
+    "berkas": "images/resep/bakso.jpg",
+    "penulis": "Deerpeter",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABakso%20Ayam%20in%20Ubud.jpg",
+    "berkas_sumber": "Bakso Ayam in Ubud.jpg"
+  },
+  {
+    "slug": "paniki",
+    "judul": "Paniki",
+    "berkas": "images/resep/paniki.jpg",
+    "penulis": "mattjlc",
+    "lisensi": "CC BY 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ACooking%20paniki.jpg",
+    "berkas_sumber": "Cooking paniki.jpg"
+  },
+  {
+    "slug": "rawon",
+    "judul": "Rawon",
+    "berkas": "images/resep/rawon.jpg",
+    "penulis": "Windi Utari",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABUMBU%20RAWON.png",
+    "berkas_sumber": "BUMBU RAWON.png"
+  },
+  {
+    "slug": "sop-buntut",
+    "judul": "Sop buntut",
+    "berkas": "images/resep/sop-buntut.jpg",
+    "penulis": "Alpha",
+    "lisensi": "CC BY-SA 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASup%20Buntut%20-%20Nelayan%20Indonesian%20Restaurant.jpg",
+    "berkas_sumber": "Sup Buntut - Nelayan Indonesian Restaurant.jpg"
+  },
+  {
+    "slug": "bakmi",
+    "judul": "Bakmi",
+    "berkas": "images/resep/bakmi.jpg",
+    "penulis": "RahmadHimawan Photography",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABakmi%20goreng%20Kuah.jpg",
+    "berkas_sumber": "Bakmi goreng Kuah.jpg"
+  },
+  {
+    "slug": "bakmi-jawa",
+    "judul": "Bakmi Jawa",
+    "berkas": "images/resep/bakmi-jawa.jpg",
+    "penulis": "Cun Cun",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMie%20Godog%20Warung%20Sederhana%20Gubeng%20Pojok%20(21%20June%202023).jpg",
+    "berkas_sumber": "Mie Godog Warung Sederhana Gubeng Pojok (21 June 2023).jpg"
+  },
+  {
+    "slug": "mie-gomak",
+    "judul": "Mie gomak",
+    "berkas": "images/resep/mie-gomak.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMie%20Gomak%201.jpg",
+    "berkas_sumber": "Mie Gomak 1.jpg"
+  },
+  {
+    "slug": "kwetiau",
+    "judul": "Kwetiau",
+    "berkas": "images/resep/kwetiau.jpg",
+    "penulis": "Pinerineks",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKwetiau%20kuah.jpg",
+    "berkas_sumber": "Kwetiau kuah.jpg"
+  },
+  {
+    "slug": "kwetiau-ayam",
+    "judul": "Kwetiau ayam",
+    "berkas": "images/resep/kwetiau-ayam.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKwetiau%20kuah%202.JPG",
+    "berkas_sumber": "Kwetiau kuah 2.JPG"
+  },
+  {
+    "slug": "mi-aceh",
+    "judul": "Mi aceh",
+    "berkas": "images/resep/mi-aceh.jpg",
+    "penulis": "Pandu Aji Wirawan",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APenjual%20Mie%20Aceh.jpg",
+    "berkas_sumber": "Penjual Mie Aceh.jpg"
+  },
+  {
+    "slug": "mi-bancir",
+    "judul": "Mi bancir",
+    "berkas": "images/resep/mi-bancir.jpg",
+    "penulis": "Ezagren (bicara / talk)",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMie%20Bancir%20dengan%20Ayam.JPG",
+    "berkas_sumber": "Mie Bancir dengan Ayam.JPG"
+  },
+  {
+    "slug": "mi-kocok",
+    "judul": "Mi kocok",
+    "berkas": "images/resep/mi-kocok.jpg",
+    "penulis": "Astari28",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMie%20Kocok%20Lhoksukon.jpg",
+    "berkas_sumber": "Mie Kocok Lhoksukon.jpg"
+  },
+  {
+    "slug": "mie-ayam",
+    "judul": "Mie ayam",
+    "berkas": "images/resep/mie-ayam.jpg",
+    "penulis": "Ardfeb",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMie%20Sampurna%20Apong.jpg",
+    "berkas_sumber": "Mie Sampurna Apong.jpg"
+  },
+  {
+    "slug": "mie-cakalang",
+    "judul": "Mie cakalang",
+    "berkas": "images/resep/mie-cakalang.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMie%20Cakalang%201.jpg",
+    "berkas_sumber": "Mie Cakalang 1.jpg"
+  },
+  {
+    "slug": "mie-celor",
+    "judul": "Mie celor",
+    "berkas": "images/resep/mie-celor.jpg",
+    "penulis": "Asel Arba Mayranda",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMie%20Celor%20Palembang%202.jpg",
+    "berkas_sumber": "Mie Celor Palembang 2.jpg"
+  },
+  {
+    "slug": "soto-mi",
+    "judul": "Soto mi",
+    "berkas": "images/resep/soto-mi.jpg",
+    "penulis": "Happywu",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoto%20Mi%20Bogor.jpg",
+    "berkas_sumber": "Soto Mi Bogor.jpg"
+  },
+  {
+    "slug": "yamin",
+    "judul": "Yamin",
+    "berkas": "images/resep/yamin.jpg",
+    "penulis": "Lalalalabpi",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AYamin%20Bandung.jpg",
+    "berkas_sumber": "Yamin Bandung.jpg"
+  },
+  {
+    "slug": "jipang",
+    "judul": "Jipang",
+    "berkas": "images/resep/jipang.jpg",
+    "penulis": "Jmarlon",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AJipang%20beras.jpg",
+    "berkas_sumber": "Jipang beras.jpg"
+  },
+  {
+    "slug": "ketupat",
+    "judul": "Ketupat",
+    "berkas": "images/resep/ketupat.jpg",
+    "penulis": "Miss Izzah",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKetupat%20Nasi.jpg",
+    "berkas_sumber": "Ketupat Nasi.jpg"
+  },
+  {
+    "slug": "lepet",
+    "judul": "Lepet",
+    "berkas": "images/resep/lepet.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALepet.JPG",
+    "berkas_sumber": "Lepet.JPG"
+  },
+  {
+    "slug": "megono",
+    "judul": "Megono",
+    "berkas": "images/resep/megono.jpg",
+    "penulis": "Wibowo Djatmiko (Wie146)",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3A3%20Sego%20megono%20220826-084443%20pkl.jpg",
+    "berkas_sumber": "3 Sego megono 220826-084443 pkl.jpg"
+  },
+  {
+    "slug": "nasi-ambeng",
+    "judul": "Nasi ambeng",
+    "berkas": "images/resep/nasi-ambeng.jpg",
+    "penulis": "Rulwarih",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Ambeng%2020260301.jpg",
+    "berkas_sumber": "Nasi Ambeng 20260301.jpg"
+  },
+  {
+    "slug": "nasi-gandul",
+    "judul": "Nasi gandul",
+    "berkas": "images/resep/nasi-gandul.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Gandul%203.jpg",
+    "berkas_sumber": "Nasi Gandul 3.jpg"
+  },
+  {
+    "slug": "nasi-gemuk",
+    "judul": "Nasi gemuk",
+    "berkas": "images/resep/nasi-gemuk.jpg",
+    "penulis": "Roby diery",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Gmk.jpg",
+    "berkas_sumber": "Nasi Gmk.jpg"
+  },
+  {
+    "slug": "nasi-itik-gambut",
+    "judul": "Nasi itik Gambut",
+    "berkas": "images/resep/nasi-itik-gambut.jpg",
+    "penulis": "Ezagren (bicara / talk)",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Itik%20Gambut%20Tenda%20Biru.JPG",
+    "berkas_sumber": "Nasi Itik Gambut Tenda Biru.JPG"
+  },
+  {
+    "slug": "nasi-kapau",
+    "judul": "Nasi kapau",
+    "berkas": "images/resep/nasi-kapau.jpg",
+    "penulis": "Erisonjkambari",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Kapau%20Selera%20Minang.jpg",
+    "berkas_sumber": "Nasi Kapau Selera Minang.jpg"
+  },
+  {
+    "slug": "nasi-kebuli",
+    "judul": "Nasi kebuli",
+    "berkas": "images/resep/nasi-kebuli.jpg",
+    "penulis": "Hzu Hzu",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20kebuli.jpg",
+    "berkas_sumber": "Nasi kebuli.jpg"
+  },
+  {
+    "slug": "nasi-kucing",
+    "judul": "Nasi kucing",
+    "berkas": "images/resep/nasi-kucing.jpg",
+    "penulis": "Crisco 1492",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20kucing%20langgi.jpg",
+    "berkas_sumber": "Nasi kucing langgi.jpg"
+  },
+  {
+    "slug": "nasi-liwet",
+    "judul": "Nasi liwet",
+    "berkas": "images/resep/nasi-liwet.jpg",
+    "penulis": "Arief Rachman",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Liwet%20Jolem.jpg",
+    "berkas_sumber": "Nasi Liwet Jolem.jpg"
+  },
+  {
+    "slug": "nasi-minyak",
+    "judul": "Nasi minyak",
+    "berkas": "images/resep/nasi-minyak.jpg",
+    "penulis": "Fernandotri",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAyam%20Kecap%20Sriwijaya.jpg",
+    "berkas_sumber": "Ayam Kecap Sriwijaya.jpg"
+  },
+  {
+    "slug": "nasi-padang",
+    "judul": "Nasi Padang",
+    "berkas": "images/resep/nasi-padang.jpg",
+    "penulis": "Dr.Francostein1975",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Padang%20With%20beef%20rendang.jpg",
+    "berkas_sumber": "Nasi Padang With beef rendang.jpg"
+  },
+  {
+    "slug": "nasi-pecel",
+    "judul": "Nasi pecel",
+    "berkas": "images/resep/nasi-pecel.jpg",
+    "penulis": "Fido Cahya",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Pecel%20Daun%20Jati.jpg",
+    "berkas_sumber": "Nasi Pecel Daun Jati.jpg"
+  },
+  {
+    "slug": "nasi-ramas",
+    "judul": "Nasi ramas",
+    "berkas": "images/resep/nasi-ramas.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20ramas%20gulai%20sotong%20rempeyek%20udang.JPG",
+    "berkas_sumber": "Nasi ramas gulai sotong rempeyek udang.JPG"
+  },
+  {
+    "slug": "nasi-tempong",
+    "judul": "Nasi tempong",
+    "berkas": "images/resep/nasi-tempong.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20tempong%20ikan%20goreng%202.jpg",
+    "berkas_sumber": "Nasi tempong ikan goreng 2.jpg"
+  },
+  {
+    "slug": "nasi-tim",
+    "judul": "Nasi tim",
+    "berkas": "images/resep/nasi-tim.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20tim.JPG",
+    "berkas_sumber": "Nasi tim.JPG"
+  },
+  {
+    "slug": "nasi-timbel",
+    "judul": "Nasi timbel",
+    "berkas": "images/resep/nasi-timbel.jpg",
+    "penulis": "Astari28",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Timbel%20Bakar%203.png",
+    "berkas_sumber": "Nasi Timbel Bakar 3.png"
+  },
+  {
+    "slug": "nasi-tutug-oncom",
+    "judul": "Nasi tutug oncom",
+    "berkas": "images/resep/nasi-tutug-oncom.jpg",
+    "penulis": "Dudygr",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMakanan%20Khas%20Sunda.jpg",
+    "berkas_sumber": "Makanan Khas Sunda.jpg"
+  },
+  {
+    "slug": "nasi-ulam",
+    "judul": "Nasi ulam",
+    "berkas": "images/resep/nasi-ulam.jpg",
+    "penulis": "Mdsheth1986",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Ulam%20bersama%20Daging%20Bakar.jpg",
+    "berkas_sumber": "Nasi Ulam bersama Daging Bakar.jpg"
+  },
+  {
+    "slug": "putu-mayam",
+    "judul": "Putu mayam",
+    "berkas": "images/resep/putu-mayam.jpg",
+    "penulis": "ProjectManhattan",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APutu%20mayam%202.jpg",
+    "berkas_sumber": "Putu mayam 2.jpg"
+  },
+  {
+    "slug": "tape-ketan",
+    "judul": "Tape ketan",
+    "berkas": "images/resep/tape-ketan.jpg",
+    "penulis": "Wiwik P",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATape%20ketan.jpg",
+    "berkas_sumber": "Tape ketan.jpg"
+  },
+  {
+    "slug": "tinutuan",
+    "judul": "Tinutuan",
+    "berkas": "images/resep/tinutuan.jpg",
+    "penulis": "Tumanisme",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABubur%20Manado%20(Tinutuan).jpg",
+    "berkas_sumber": "Bubur Manado (Tinutuan).jpg"
+  },
+  {
+    "slug": "nasi-goreng-seafood",
+    "judul": "Nasi goreng seafood",
+    "berkas": "images/resep/nasi-goreng-seafood.jpg",
+    "penulis": "D.W. Fisher-Freberg",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20goreng%20seafood.JPG",
+    "berkas_sumber": "Nasi goreng seafood.JPG"
+  },
+  {
+    "slug": "udang-balado",
+    "judul": "Udang balado",
+    "berkas": "images/resep/udang-balado.jpg",
+    "penulis": "Supardisahabu",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AUdang%20Asam%20Manis.jpg",
+    "berkas_sumber": "Udang Asam Manis.jpg"
+  },
+  {
+    "slug": "krupuk-udang",
+    "judul": "Krupuk udang",
+    "berkas": "images/resep/krupuk-udang.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AFried%20Krupuk%20Udang.JPG",
+    "berkas_sumber": "Fried Krupuk Udang.JPG"
+  },
+  {
+    "slug": "nasi-goreng-udang",
+    "judul": "Nasi goreng udang",
+    "berkas": "images/resep/nasi-goreng-udang.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20goreng%20udang%20Kelapa%20Gading.JPG",
+    "berkas_sumber": "Nasi goreng udang Kelapa Gading.JPG"
+  },
+  {
+    "slug": "sate-udang",
+    "judul": "Sate udang",
+    "berkas": "images/resep/sate-udang.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20Udang.JPG",
+    "berkas_sumber": "Sate Udang.JPG"
+  },
+  {
+    "slug": "sate-bekicot",
+    "judul": "Sate Bekicot",
+    "berkas": "images/resep/sate-bekicot.jpg",
+    "penulis": "Abdul Hanif Arromy",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20Bekicot%20205949.jpg",
+    "berkas_sumber": "Sate Bekicot 205949.jpg"
+  },
+  {
+    "slug": "sup-tutut",
+    "judul": "Sup Tutut",
+    "berkas": "images/resep/sup-tutut.jpg",
+    "penulis": "Indonesiagood",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASup%20Tutut.jpg",
+    "berkas_sumber": "Sup Tutut.jpg"
+  },
+  {
+    "slug": "asinan",
+    "judul": "Asinan",
+    "berkas": "images/resep/asinan.jpg",
+    "penulis": "Pitchrigi",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAsinan%201.jpg",
+    "berkas_sumber": "Asinan 1.jpg"
+  },
+  {
+    "slug": "burangir",
+    "judul": "Burangir",
+    "berkas": "images/resep/burangir.jpg",
+    "penulis": "Nasution007",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABurangir%20(kumpulan%20dari%20beberapa%20jenis%20daun%20dan%20rempah).jpg",
+    "berkas_sumber": "Burangir (kumpulan dari beberapa jenis daun dan rempah).jpg"
+  },
+  {
+    "slug": "daun-ubi-tumbuk",
+    "judul": "Daun ubi tumbuk",
+    "berkas": "images/resep/daun-ubi-tumbuk.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASayur%20daun%20ubi%20tumbuk%20Palopo.JPG",
+    "berkas_sumber": "Sayur daun ubi tumbuk Palopo.JPG"
+  },
+  {
+    "slug": "gado-gado",
+    "judul": "Gado-gado",
+    "berkas": "images/resep/gado-gado.jpg",
+    "penulis": "Andy Li",
+    "lisensi": "CC0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AGado-gado%20-%20Bali%202025-09-25.jpg",
+    "berkas_sumber": "Gado-gado - Bali 2025-09-25.jpg"
+  },
+  {
+    "slug": "kangkung-belacan",
+    "judul": "Kangkung belacan",
+    "berkas": "images/resep/kangkung-belacan.jpg",
+    "penulis": "Andy Li",
+    "lisensi": "CC0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKangkung%20Belacan%20-%20Roti%20King%202026-02-21.jpg",
+    "berkas_sumber": "Kangkung Belacan - Roti King 2026-02-21.jpg"
+  },
+  {
+    "slug": "karedok",
+    "judul": "Karedok",
+    "berkas": "images/resep/karedok.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20Babi%20and%20Karedok%20in%20Ubud%202.jpg",
+    "berkas_sumber": "Sate Babi and Karedok in Ubud 2.jpg"
+  },
+  {
+    "slug": "ketoprak",
+    "judul": "Ketoprak",
+    "berkas": "images/resep/ketoprak.jpg",
+    "penulis": "Astari28",
+    "lisensi": "CC0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMakanan%20Ketoprak.jpg",
+    "berkas_sumber": "Makanan Ketoprak.jpg"
+  },
+  {
+    "slug": "ketupat-sayur",
+    "judul": "Ketupat sayur",
+    "berkas": "images/resep/ketupat-sayur.jpg",
+    "penulis": "M Joko Apriyo Putro",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKetupat%20Sayur%20Pedas.jpg",
+    "berkas_sumber": "Ketupat Sayur Pedas.jpg"
+  },
+  {
+    "slug": "lontong-sayur",
+    "judul": "Lontong sayur",
+    "berkas": "images/resep/lontong-sayur.jpg",
+    "penulis": "Wibowo Djatmiko (Wie146)",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATempo%20250615-070212%20jtg.jpg",
+    "berkas_sumber": "Tempo 250615-070212 jtg.jpg"
+  },
+  {
+    "slug": "mie-kangkung",
+    "judul": "Mie kangkung",
+    "berkas": "images/resep/mie-kangkung.jpg",
+    "penulis": "Lim Natee",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMie%20Sop%202.jpg",
+    "berkas_sumber": "Mie Sop 2.jpg"
+  },
+  {
+    "slug": "plecing-kangkung",
+    "judul": "Plecing kangkung",
+    "berkas": "images/resep/plecing-kangkung.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APelecing%20kangkung%20Lombok.JPG",
+    "berkas_sumber": "Pelecing kangkung Lombok.JPG"
+  },
+  {
+    "slug": "sayur-bunga-pepaya",
+    "judul": "Sayur bunga pepaya",
+    "berkas": "images/resep/sayur-bunga-pepaya.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABabi%20Rica-rica%204.jpg",
+    "berkas_sumber": "Babi Rica-rica 4.jpg"
+  },
+  {
+    "slug": "sayur-daun-pangi",
+    "judul": "Sayur daun pangi",
+    "berkas": "images/resep/sayur-daun-pangi.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABabi%20Rica-rica%202.jpg",
+    "berkas_sumber": "Babi Rica-rica 2.jpg"
+  },
+  {
+    "slug": "babi-guling",
+    "judul": "Babi Guling",
+    "berkas": "images/resep/babi-guling.jpg",
+    "penulis": "I Kadek Jaya Wiguna",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABabi%20Guling.jpg",
+    "berkas_sumber": "Babi Guling.jpg"
+  },
+  {
+    "slug": "betutu",
+    "judul": "Betutu",
+    "berkas": "images/resep/betutu.jpg",
+    "penulis": "Windi Utari",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABUMBU%20AYAM%20BETUTU.png",
+    "berkas_sumber": "BUMBU AYAM BETUTU.png"
+  },
+  {
+    "slug": "bubuh-injin",
+    "judul": "Bubuh injin",
+    "berkas": "images/resep/bubuh-injin.jpg",
+    "penulis": "Robb1e",
+    "lisensi": "CC BY-SA 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABlack%20rice%20pudding.jpg",
+    "berkas_sumber": "Black rice pudding.jpg"
+  },
+  {
+    "slug": "bulung",
+    "judul": "Bulung",
+    "berkas": "images/resep/bulung.jpg",
+    "penulis": "Kresnanta",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABulung%20Putih.jpg",
+    "berkas_sumber": "Bulung Putih.jpg"
+  },
+  {
+    "slug": "be-genyol",
+    "judul": "Bé genyol",
+    "berkas": "images/resep/be-genyol.jpg",
+    "penulis": "Chinamoonroll",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Be%20Genyol%20Sading.jpg",
+    "berkas_sumber": "Nasi Be Genyol Sading.jpg"
+  },
+  {
+    "slug": "iga-babi-bakar",
+    "judul": "Iga babi bakar",
+    "berkas": "images/resep/iga-babi-bakar.jpg",
+    "penulis": "Julia Kado",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARibs%20in%20Bali.jpg",
+    "berkas_sumber": "Ribs in Bali.jpg"
+  },
+  {
+    "slug": "laklak",
+    "judul": "Laklak",
+    "berkas": "images/resep/laklak.jpg",
+    "penulis": "Joseagush",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALaklak%20Top%20View.jpg",
+    "berkas_sumber": "Laklak Top View.jpg"
+  },
+  {
+    "slug": "lawar",
+    "judul": "Lawar",
+    "berkas": "images/resep/lawar.jpg",
+    "penulis": "RT. Hakimi",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Bali.jpg",
+    "berkas_sumber": "Nasi Bali.jpg"
+  },
+  {
+    "slug": "nasi-campur-bali",
+    "judul": "Nasi campur Bali",
+    "berkas": "images/resep/nasi-campur-bali.jpg",
+    "penulis": "Komang arie",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20campur%20bali.jpg",
+    "berkas_sumber": "Nasi campur bali.jpg"
+  },
+  {
+    "slug": "rujak-buah-bali",
+    "judul": "Rujak buah Bali",
+    "berkas": "images/resep/rujak-buah-bali.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARujak%20Buah%20Bali%201.jpg",
+    "berkas_sumber": "Rujak Buah Bali 1.jpg"
+  },
+  {
+    "slug": "sambal-matah",
+    "judul": "Sambal matah",
+    "berkas": "images/resep/sambal-matah.jpg",
+    "penulis": "Kresnanta",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAyam%20Goreng%20Sambal%20Matah.jpg",
+    "berkas_sumber": "Ayam Goreng Sambal Matah.jpg"
+  },
+  {
+    "slug": "sate-babi",
+    "judul": "Sate babi",
+    "berkas": "images/resep/sate-babi.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20Babi%20and%20Karedok%20in%20Ubud%201.jpg",
+    "berkas_sumber": "Sate Babi and Karedok in Ubud 1.jpg"
+  },
+  {
+    "slug": "sate-lilit",
+    "judul": "Sate lilit",
+    "berkas": "images/resep/sate-lilit.jpg",
+    "penulis": "Kresnanta",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20Lilit.jpg",
+    "berkas_sumber": "Sate Lilit.jpg"
+  },
+  {
+    "slug": "soto-babi",
+    "judul": "Soto babi",
+    "berkas": "images/resep/soto-babi.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoto%20Babi%20Bali%201.JPG",
+    "berkas_sumber": "Soto Babi Bali 1.JPG"
+  },
+  {
+    "slug": "tipat-cantok",
+    "judul": "Tipat cantok",
+    "berkas": "images/resep/tipat-cantok.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATipat%20Cantok%203.jpg",
+    "berkas_sumber": "Tipat Cantok 3.jpg"
+  },
+  {
+    "slug": "ayam-kecap",
+    "judul": "Ayam kecap",
+    "berkas": "images/resep/ayam-kecap.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAyam%20Kecap%202.jpg",
+    "berkas_sumber": "Ayam Kecap 2.jpg"
+  },
+  {
+    "slug": "brengkes",
+    "judul": "Brengkes",
+    "berkas": "images/resep/brengkes.jpg",
+    "penulis": "Abdul Hanif Arromy",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABrengkes.jpg",
+    "berkas_sumber": "Brengkes.jpg"
+  },
+  {
+    "slug": "dawet",
+    "judul": "Dawet",
+    "berkas": "images/resep/dawet.jpg",
+    "penulis": "Dj Onces Saputra",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AWarung%20Dawet%20-%20panoramio.jpg",
+    "berkas_sumber": "Warung Dawet - panoramio.jpg"
+  },
+  {
+    "slug": "empal-gepuk",
+    "judul": "Empal gepuk",
+    "berkas": "images/resep/empal-gepuk.jpg",
+    "penulis": "Rainaldy Dwiatmoko",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AEmpal%20Gepuk.jpg",
+    "berkas_sumber": "Empal Gepuk.jpg"
+  },
+  {
+    "slug": "gemblong",
+    "judul": "Gemblong",
+    "berkas": "images/resep/gemblong.jpg",
+    "penulis": "PL09Puryono",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AGemblong.JPG",
+    "berkas_sumber": "Gemblong.JPG"
+  },
+  {
+    "slug": "kacang-kribo",
+    "judul": "Kacang kribo",
+    "berkas": "images/resep/kacang-kribo.jpg",
+    "penulis": "Wiwik P",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKacang%20kribo.jpg",
+    "berkas_sumber": "Kacang kribo.jpg"
+  },
+  {
+    "slug": "sate-srepeh",
+    "judul": "Sate srepeh",
+    "berkas": "images/resep/sate-srepeh.jpg",
+    "penulis": "PL08 Elok",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20Srepeh.jpg",
+    "berkas_sumber": "Sate Srepeh.jpg"
+  },
+  {
+    "slug": "sawut",
+    "judul": "Sawut",
+    "berkas": "images/resep/sawut.jpg",
+    "penulis": "Naval Scene",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASawut%20on%20a%20white%20plate.jpg",
+    "berkas_sumber": "Sawut on a white plate.jpg"
+  },
+  {
+    "slug": "sayur-kacang-merah",
+    "judul": "Sayur kacang merah",
+    "berkas": "images/resep/sayur-kacang-merah.jpg",
+    "penulis": "Wiwik P",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASayur%20kacang%20merah%20atau%20jangan%20tholo.jpg",
+    "berkas_sumber": "Sayur kacang merah atau jangan tholo.jpg"
+  },
+  {
+    "slug": "soto-ayam",
+    "judul": "Soto ayam",
+    "berkas": "images/resep/soto-ayam.jpg",
+    "penulis": "Astari28",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoto%20ayam%20khas%20Jember.jpg",
+    "berkas_sumber": "Soto ayam khas Jember.jpg"
+  },
+  {
+    "slug": "terang-bulan",
+    "judul": "Terang bulan",
+    "berkas": "images/resep/terang-bulan.jpg",
+    "penulis": "Blue Sonic",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATerang%20bulan%20keju.jpg",
+    "berkas_sumber": "Terang bulan keju.jpg"
+  },
+  {
+    "slug": "papeda",
+    "judul": "Papeda",
+    "berkas": "images/resep/papeda.jpg",
+    "penulis": "Dani Safa Adi Nugraha",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APedagang%20kaki%20lima%20keliling%20bersepeda%20motor%20%22Papeda%20Bang%20Jecky%22%20berjualan%20pada%20saat%20lomba%20agustusan%20hari%20pertama%20di%20Tegalan%2C%20Juwiran%2C%20Juwiring%2C%20Klaten%20pada%20hari%20Jum'at%20tanggal%2014%20Agustus%202026.jpg",
+    "berkas_sumber": "Pedagang kaki lima keliling bersepeda motor \"Papeda Bang Jecky\" berjualan pada saat lomba agustusan hari pertama di Tegalan, Juwiran, Juwiring, Klaten pada hari Jum'at tanggal 14 Agustus 2026.jpg"
+  },
+  {
+    "slug": "tahu-tepo",
+    "judul": "Tahu Tepo",
+    "berkas": "images/resep/tahu-tepo.jpg",
+    "penulis": "Wiwik P",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATepo%20tahu.jpg",
+    "berkas_sumber": "Tepo tahu.jpg"
+  },
+  {
+    "slug": "jalangkote",
+    "judul": "Jalangkote",
+    "berkas": "images/resep/jalangkote.jpg",
+    "penulis": "Supardisahabu",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AJalangkote%20Sulawesi.jpg",
+    "berkas_sumber": "Jalangkote Sulawesi.jpg"
+  },
+  {
+    "slug": "kapurung",
+    "judul": "Kapurung",
+    "berkas": "images/resep/kapurung.jpg",
+    "penulis": "Agustinusraharjo",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKapurung.jpg",
+    "berkas_sumber": "Kapurung.jpg"
+  },
+  {
+    "slug": "sate-buntel",
+    "judul": "Sate buntel",
+    "berkas": "images/resep/sate-buntel.jpg",
+    "penulis": "Mallory Cessair",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AFile-Sate-Buntel.jpg",
+    "berkas_sumber": "File-Sate-Buntel.jpg"
+  },
+  {
+    "slug": "selat-solo",
+    "judul": "Selat solo",
+    "berkas": "images/resep/selat-solo.jpg",
+    "penulis": "Wiwik P",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASelat%20solo%20segar.jpg",
+    "berkas_sumber": "Selat solo segar.jpg"
+  },
+  {
+    "slug": "timlo",
+    "judul": "Timlo",
+    "berkas": "images/resep/timlo.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATimlo%20Solo.JPG",
+    "berkas_sumber": "Timlo Solo.JPG"
+  },
+  {
+    "slug": "seri-muka",
+    "judul": "Seri muka",
+    "berkas": "images/resep/seri-muka.jpg",
+    "penulis": "Mingknow",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKuih%20Seri%20Muka.jpg",
+    "berkas_sumber": "Kuih Seri Muka.jpg"
+  },
+  {
+    "slug": "brem",
+    "judul": "Brem",
+    "berkas": "images/resep/brem.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABrem%20Madiun.JPG",
+    "berkas_sumber": "Brem Madiun.JPG"
+  },
+  {
+    "slug": "teh-poci-gula-batu",
+    "judul": "Teh poci gula batu",
+    "berkas": "images/resep/teh-poci-gula-batu.jpg",
+    "penulis": "christian r from Singapore",
+    "lisensi": "CC BY-SA 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATeh%20Poci%20Yogyakarta.jpg",
+    "berkas_sumber": "Teh Poci Yogyakarta.jpg"
+  },
+  {
+    "slug": "kue-mata-roda",
+    "judul": "Kue mata roda",
+    "berkas": "images/resep/kue-mata-roda.jpg",
+    "penulis": "Janet Hudson",
+    "lisensi": "CC BY 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKue%20Kacamata%2C%20Steamed%20Cake%20Roll%20with%20Plantain.jpg",
+    "berkas_sumber": "Kue Kacamata, Steamed Cake Roll with Plantain.jpg"
+  },
+  {
+    "slug": "roti-buaya",
+    "judul": "Roti buaya",
+    "berkas": "images/resep/roti-buaya.jpg",
+    "penulis": "Khả Vân Đại Hãn",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AB%C3%A1nh%20m%C3%AC%20c%C3%A1%20s%E1%BA%A5u%20(Crocodile%20bread).jpg",
+    "berkas_sumber": "Bánh mì cá sấu (Crocodile bread).jpg"
+  },
+  {
+    "slug": "roti-jala",
+    "judul": "Roti jala",
+    "berkas": "images/resep/roti-jala.jpg",
+    "penulis": "D.W. Fisher-Freberg",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARoti%20jala%20Indonesia.JPG",
+    "berkas_sumber": "Roti jala Indonesia.JPG"
+  },
+  {
+    "slug": "roti-kacang",
+    "judul": "Roti Kacang",
+    "berkas": "images/resep/roti-kacang.jpg",
+    "penulis": "Rafarahh",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARoti%20Kacang%202.jpg",
+    "berkas_sumber": "Roti Kacang 2.jpg"
+  },
+  {
+    "slug": "combro",
+    "judul": "Combro",
+    "berkas": "images/resep/combro.jpg",
+    "penulis": "Supardisahabu",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASabongi.jpg",
+    "berkas_sumber": "Sabongi.jpg"
+  },
+  {
+    "slug": "gembus",
+    "judul": "Gembus",
+    "berkas": "images/resep/gembus.jpg",
+    "penulis": "Wibowo Djatmiko (Wie146)",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AGembus%20240805-142416%20rwg.jpg",
+    "berkas_sumber": "Gembus 240805-142416 rwg.jpg"
+  },
+  {
+    "slug": "getuk",
+    "judul": "Getuk",
+    "berkas": "images/resep/getuk.jpg",
+    "penulis": "Sutea55",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AGetuk%20coklat%20kurma.jpg",
+    "berkas_sumber": "Getuk coklat kurma.jpg"
+  },
+  {
+    "slug": "ketimus",
+    "judul": "Ketimus",
+    "berkas": "images/resep/ketimus.jpg",
+    "penulis": "🍃Zulf🍃talk",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKetimus.jpg",
+    "berkas_sumber": "Ketimus.jpg"
+  },
+  {
+    "slug": "lanthing",
+    "judul": "Lanthing",
+    "berkas": "images/resep/lanthing.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALanthing%20Yogyakarta.JPG",
+    "berkas_sumber": "Lanthing Yogyakarta.JPG"
+  },
+  {
+    "slug": "amplang",
+    "judul": "Amplang",
+    "berkas": "images/resep/amplang.jpg",
+    "penulis": "Crisco 1492",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAmplang%20from%20Kotabaru%2C%20South%20Kalimantan%202015-05-23%2002.jpg",
+    "berkas_sumber": "Amplang from Kotabaru, South Kalimantan 2015-05-23 02.jpg"
+  },
+  {
+    "slug": "emping",
+    "judul": "Emping",
+    "berkas": "images/resep/emping.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AEmping%20simping.jpg",
+    "berkas_sumber": "Emping simping.jpg"
+  },
+  {
+    "slug": "jans-sesame-crackers-with-honey",
+    "judul": "Jans Sesame Crackers with Honey",
+    "berkas": "images/resep/jans-sesame-crackers-with-honey.jpg",
+    "penulis": "Judgefloro",
+    "lisensi": "CC0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ACuisine%20foods%20of%20BulacanDSCN9646%2036.jpg",
+    "berkas_sumber": "Cuisine foods of BulacanDSCN9646 36.jpg"
+  },
+  {
+    "slug": "karak",
+    "judul": "Karak",
+    "berkas": "images/resep/karak.jpg",
+    "penulis": "Meursault2004",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ADrying%20Javanese%20rice%20crackers%20(karak)%20in%20the%20sun.jpg",
+    "berkas_sumber": "Drying Javanese rice crackers (karak) in the sun.jpg"
+  },
+  {
+    "slug": "keripik",
+    "judul": "Keripik",
+    "berkas": "images/resep/keripik.jpg",
+    "penulis": "Wiwik P",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKeripik%20tortilla.jpg",
+    "berkas_sumber": "Keripik tortilla.jpg"
+  },
+  {
+    "slug": "krupuk",
+    "judul": "Krupuk",
+    "berkas": "images/resep/krupuk.jpg",
+    "penulis": "Wiwik P",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKerupuk%20kulit%20sapi.jpg",
+    "berkas_sumber": "Kerupuk kulit sapi.jpg"
+  },
+  {
+    "slug": "bakcang",
+    "judul": "Bakcang",
+    "berkas": "images/resep/bakcang.jpg",
+    "penulis": "Cun Cun",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3A%E5%8D%B0%E5%B0%BC%E6%9D%B1%E7%88%AA%E5%93%87%E7%9C%81%E6%B3%97%E6%B0%B4%E7%AB%AF%E5%8D%88%E7%AF%802023%E5%B9%B406%E6%9C%8822%E6%97%A5.jpg",
+    "berkas_sumber": "印尼東爪哇省泗水端午節2023年06月22日.jpg"
+  },
+  {
+    "slug": "nyukcung",
+    "judul": "Nyukcung",
+    "berkas": "images/resep/nyukcung.jpg",
+    "penulis": "Taman Renyah",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANyukcung.jpg",
+    "berkas_sumber": "Nyukcung.jpg"
+  },
+  {
+    "slug": "pangsit",
+    "judul": "Pangsit",
+    "berkas": "images/resep/pangsit.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APangsit%20kuah.JPG",
+    "berkas_sumber": "Pangsit kuah.JPG"
+  },
+  {
+    "slug": "ayam-bakar",
+    "judul": "Ayam bakar",
+    "berkas": "images/resep/ayam-bakar.jpg",
+    "penulis": "D.W. Fisher-Freberg",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAyam%20bakar%20Aie%20Badarun.JPG",
+    "berkas_sumber": "Ayam bakar Aie Badarun.JPG"
+  },
+  {
+    "slug": "nasi-goreng-vendors",
+    "judul": "Nasi goreng vendors",
+    "berkas": "images/resep/nasi-goreng-vendors.jpg",
+    "penulis": "Gossipguy",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKota%20Kinabalu%20food%20market.jpg",
+    "berkas_sumber": "Kota Kinabalu food market.jpg"
+  },
+  {
+    "slug": "nasi-goreng-pattaya",
+    "judul": "Nasi goreng pattaya",
+    "berkas": "images/resep/nasi-goreng-pattaya.jpg",
+    "penulis": "D.W. Fisher-Freberg",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20goreng%20Pattaya.JPG",
+    "berkas_sumber": "Nasi goreng Pattaya.JPG"
+  },
+  {
+    "slug": "kue-leker",
+    "judul": "Kue leker",
+    "berkas": "images/resep/kue-leker.jpg",
+    "penulis": "Indonesiagood",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALeker%20Pisang%20Coklat%20Durian.jpg",
+    "berkas_sumber": "Leker Pisang Coklat Durian.jpg"
+  },
+  {
+    "slug": "martabak-manis",
+    "judul": "Martabak manis",
+    "berkas": "images/resep/martabak-manis.jpg",
+    "penulis": "Malikpb",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMartabak%20manis%20coklat%20keju%20khas%20indonesia.jpg",
+    "berkas_sumber": "Martabak manis coklat keju khas indonesia.jpg"
+  },
+  {
+    "slug": "serabi",
+    "judul": "Serabi",
+    "berkas": "images/resep/serabi.jpg",
+    "penulis": "Akhsan Bae",
+    "lisensi": "CC0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASerabi%20banjarnegara%200000.jpg",
+    "berkas_sumber": "Serabi banjarnegara 0000.jpg"
+  },
+  {
+    "slug": "bollen",
+    "judul": "Bollen",
+    "berkas": "images/resep/bollen.jpg",
+    "penulis": "Indonesiagood",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABolen%20Pisang.jpg",
+    "berkas_sumber": "Bolen Pisang.jpg"
+  },
+  {
+    "slug": "acar",
+    "judul": "Acar",
+    "berkas": "images/resep/acar.jpg",
+    "penulis": "Crisco 1492",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAcar%20and%20chili%20sauce.jpg",
+    "berkas_sumber": "Acar and chili sauce.jpg"
+  },
+  {
+    "slug": "lalab",
+    "judul": "Lalab",
+    "berkas": "images/resep/lalab.jpg",
+    "penulis": "Shinta amalia",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALalapan.jpg",
+    "berkas_sumber": "Lalapan.jpg"
+  },
+  {
+    "slug": "sate-ayam",
+    "judul": "Sate ayam",
+    "berkas": "images/resep/sate-ayam.jpg",
+    "penulis": "Deerpeter",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APasar%20Sindu%20Food%20Market.jpg",
+    "berkas_sumber": "Pasar Sindu Food Market.jpg"
+  },
+  {
+    "slug": "sate-bandeng",
+    "judul": "Sate bandeng",
+    "berkas": "images/resep/sate-bandeng.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20Bandeng%201.jpg",
+    "berkas_sumber": "Sate Bandeng 1.jpg"
+  },
+  {
+    "slug": "sate-banjar",
+    "judul": "Sate banjar",
+    "berkas": "images/resep/sate-banjar.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20ayam%20merah%20Banjarmasin.JPG",
+    "berkas_sumber": "Sate ayam merah Banjarmasin.JPG"
+  },
+  {
+    "slug": "sate-hati",
+    "judul": "Sate hati",
+    "berkas": "images/resep/sate-hati.jpg",
+    "penulis": "Khlshnuramalina",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20Ati%20Ampela.jpg",
+    "berkas_sumber": "Sate Ati Ampela.jpg"
+  },
+  {
+    "slug": "sate-kambing",
+    "judul": "Sate kambing",
+    "berkas": "images/resep/sate-kambing.jpg",
+    "penulis": "Indonesiagood",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20Kambing%20di%20Rumah-2.jpg",
+    "berkas_sumber": "Sate Kambing di Rumah-2.jpg"
+  },
+  {
+    "slug": "sate-kelapa",
+    "judul": "Sate kelapa",
+    "berkas": "images/resep/sate-kelapa.jpg",
+    "penulis": "Fitri Penyalai",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20Kelapa.jpg",
+    "berkas_sumber": "Sate Kelapa.jpg"
+  },
+  {
+    "slug": "sate-kikil",
+    "judul": "Sate kikil",
+    "berkas": "images/resep/sate-kikil.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20kikil%20Pasar%20Baru.JPG",
+    "berkas_sumber": "Sate kikil Pasar Baru.JPG"
+  },
+  {
+    "slug": "sate-klathak",
+    "judul": "Sate klathak",
+    "berkas": "images/resep/sate-klathak.jpg",
+    "penulis": "Naval Scene",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20klatak%2020170818%20Yogyakarta.jpg",
+    "berkas_sumber": "Sate klatak 20170818 Yogyakarta.jpg"
+  },
+  {
+    "slug": "sate-kuah",
+    "judul": "Sate kuah",
+    "berkas": "images/resep/sate-kuah.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20Kuah%202.jpg",
+    "berkas_sumber": "Sate Kuah 2.jpg"
+  },
+  {
+    "slug": "sate-kuda",
+    "judul": "Sate kuda",
+    "berkas": "images/resep/sate-kuda.jpg",
+    "penulis": "christian r from Singapore",
+    "lisensi": "CC BY-SA 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AHorse%20Satay%2C%20Yogyakarta.jpg",
+    "berkas_sumber": "Horse Satay, Yogyakarta.jpg"
+  },
+  {
+    "slug": "sate-maranggi",
+    "judul": "Sate maranggi",
+    "berkas": "images/resep/sate-maranggi.jpg",
+    "penulis": "NFarras for Transport for Bandung",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20Maranggi%20and%20Toasted%20Sticky%20Rice%20in%20Cianjur.jpg",
+    "berkas_sumber": "Sate Maranggi and Toasted Sticky Rice in Cianjur.jpg"
+  },
+  {
+    "slug": "nasi-goreng-sate",
+    "judul": "Nasi goreng sate",
+    "berkas": "images/resep/nasi-goreng-sate.jpg",
+    "penulis": "Guilhem Vellut from Paris, France",
+    "lisensi": "CC BY 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20goreng%20%40%20Born%C3%A9o%20%C3%A0%20Paris%20%40%20Galerie%20Vaugirard%20%40%20Paris%20(33735600476).jpg",
+    "berkas_sumber": "Nasi goreng @ Bornéo à Paris @ Galerie Vaugirard @ Paris (33735600476).jpg"
+  },
+  {
+    "slug": "sate-sapi",
+    "judul": "Sate sapi",
+    "berkas": "images/resep/sate-sapi.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMemanggang%20sate%20sapi-kerbau%20Jepara.JPG",
+    "berkas_sumber": "Memanggang sate sapi-kerbau Jepara.JPG"
+  },
+  {
+    "slug": "sate-taichan",
+    "judul": "Sate taichan",
+    "berkas": "images/resep/sate-taichan.jpg",
+    "penulis": "Elicefa",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASate%20Taichan.jpg",
+    "berkas_sumber": "Sate Taichan.jpg"
+  },
+  {
+    "slug": "nasi-goreng-sosis",
+    "judul": "Nasi goreng sosis",
+    "berkas": "images/resep/nasi-goreng-sosis.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Goreng%20Sosis.jpg",
+    "berkas_sumber": "Nasi Goreng Sosis.jpg"
+  },
+  {
+    "slug": "adrem",
+    "judul": "Adrem",
+    "berkas": "images/resep/adrem.jpg",
+    "penulis": "Danangtrihartanto",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3A14.%20Adrem%201.jpg",
+    "berkas_sumber": "14. Adrem 1.jpg"
+  },
+  {
+    "slug": "kue-ape",
+    "judul": "Kue ape",
+    "berkas": "images/resep/kue-ape.jpg",
+    "penulis": "Tumanisme",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKue%20Serabi%20Jakarta.jpg",
+    "berkas_sumber": "Kue Serabi Jakarta.jpg"
+  },
+  {
+    "slug": "cakwe",
+    "judul": "Cakwe",
+    "berkas": "images/resep/cakwe.jpg",
+    "penulis": "AingBC",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ACakwe%20BuChe.jpg",
+    "berkas_sumber": "Cakwe BuChe.jpg"
+  },
+  {
+    "slug": "curry-puffs",
+    "judul": "Curry puffs",
+    "berkas": "images/resep/curry-puffs.jpg",
+    "penulis": "Ayakln",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%81%E0%B8%B0%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%9A2.jpg",
+    "berkas_sumber": "กะหรี่พับ2.jpg"
+  },
+  {
+    "slug": "dodol",
+    "judul": "Dodol",
+    "berkas": "images/resep/dodol.jpg",
+    "penulis": "Joseagush",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ADodol%20Side%20View.jpg",
+    "berkas_sumber": "Dodol Side View.jpg"
+  },
+  {
+    "slug": "fish-crackers",
+    "judul": "Fish crackers",
+    "berkas": "images/resep/fish-crackers.jpg",
+    "penulis": "Сергей Михель",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3A%D0%9A%D1%80%D0%B5%D0%BA%D0%B5%D1%80%20%D0%91%D0%B5%D0%BB%D0%BE%D0%B3%D0%BE%D1%80%D1%8C%D0%B5.jpg",
+    "berkas_sumber": "Крекер Белогорье.jpg"
+  },
+  {
+    "slug": "ganepo",
+    "judul": "Ganepo",
+    "berkas": "images/resep/ganepo.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ADakak-dakak%20asli%20Padang.JPG",
+    "berkas_sumber": "Dakak-dakak asli Padang.JPG"
+  },
+  {
+    "slug": "guazi",
+    "judul": "Guazi",
+    "berkas": "images/resep/guazi.jpg",
+    "penulis": "Lê Huỳnh Bộ",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AH%E1%BA%A1t%20d%C6%B0a.jpg",
+    "berkas_sumber": "Hạt dưa.jpg"
+  },
+  {
+    "slug": "kue-bawang",
+    "judul": "Kue bawang",
+    "berkas": "images/resep/kue-bawang.jpg",
+    "penulis": "Hzu Hzu",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKue%20Bawang%2001122024.jpg",
+    "berkas_sumber": "Kue Bawang 01122024.jpg"
+  },
+  {
+    "slug": "kue-gapit",
+    "judul": "Kue gapit",
+    "berkas": "images/resep/kue-gapit.jpg",
+    "penulis": "Crisco 1492",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKue%20gapit%2C%202015-06-16.jpg",
+    "berkas_sumber": "Kue gapit, 2015-06-16.jpg"
+  },
+  {
+    "slug": "kue-kering",
+    "judul": "Kue kering",
+    "berkas": "images/resep/kue-kering.jpg",
+    "penulis": "Ina cookies",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APT.%20BCS.jpg",
+    "berkas_sumber": "PT. BCS.jpg"
+  },
+  {
+    "slug": "kuping-gajah",
+    "judul": "Kuping gajah",
+    "berkas": "images/resep/kuping-gajah.jpg",
+    "penulis": "Danangtrihartanto",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3A1.%20Kuping%20Gajah%201.jpg",
+    "berkas_sumber": "1. Kuping Gajah 1.jpg"
+  },
+  {
+    "slug": "nopia-purbalingga",
+    "judul": "Nopia Purbalingga",
+    "berkas": "images/resep/nopia-purbalingga.jpg",
+    "penulis": "Indonesiagood",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANopia%20Potong.jpg",
+    "berkas_sumber": "Nopia Potong.jpg"
+  },
+  {
+    "slug": "pisang-cokelat",
+    "judul": "Pisang cokelat",
+    "berkas": "images/resep/pisang-cokelat.jpg",
+    "penulis": "Abdul Hanif Arromy",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APisang%20Coklat%20di%20Car-Free%20Day%20Jombang%20074310.jpg",
+    "berkas_sumber": "Pisang Coklat di Car-Free Day Jombang 074310.jpg"
+  },
+  {
+    "slug": "pukis",
+    "judul": "Pukis",
+    "berkas": "images/resep/pukis.jpg",
+    "penulis": "Hayati Mayang Arum",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APukis%201.jpg",
+    "berkas_sumber": "Pukis 1.jpg"
+  },
+  {
+    "slug": "semprong",
+    "judul": "Semprong",
+    "berkas": "images/resep/semprong.jpg",
+    "penulis": "Choo Yut Shing from Singapore, Singapore",
+    "lisensi": "CC BY 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKuih%20Kapit%20(53564062798).jpg",
+    "berkas_sumber": "Kuih Kapit (53564062798).jpg"
+  },
+  {
+    "slug": "sundanese-snacks",
+    "judul": "Sundanese snacks",
+    "berkas": "images/resep/sundanese-snacks.jpg",
+    "penulis": "Uchup19",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ADadar%20gulung%20(2).jpg",
+    "berkas_sumber": "Dadar gulung (2).jpg"
+  },
+  {
+    "slug": "tahu-sumedang",
+    "judul": "Tahu Sumedang",
+    "berkas": "images/resep/tahu-sumedang.jpg",
+    "penulis": "Irhanz",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATahu%20bakso.jpg",
+    "berkas_sumber": "Tahu bakso.jpg"
+  },
+  {
+    "slug": "tapai",
+    "judul": "Tapai",
+    "berkas": "images/resep/tapai.jpg",
+    "penulis": "Joseagush",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATape%20Ubi%20Side%20View.jpg",
+    "berkas_sumber": "Tape Ubi Side View.jpg"
+  },
+  {
+    "slug": "chai-tow-kway",
+    "judul": "Chai tow kway",
+    "berkas": "images/resep/chai-tow-kway.jpg",
+    "penulis": "Encik Tekateki",
+    "lisensi": "CC0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARadish%20Cake.jpg",
+    "berkas_sumber": "Radish Cake.jpg"
+  },
+  {
+    "slug": "angkringan",
+    "judul": "Angkringan",
+    "berkas": "images/resep/angkringan.jpg",
+    "penulis": "Davena rasyafaa",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAngkringan%20jawa.jpg",
+    "berkas_sumber": "Angkringan jawa.jpg"
+  },
+  {
+    "slug": "bakso-vendors",
+    "judul": "Bakso vendors",
+    "berkas": "images/resep/bakso-vendors.jpg",
+    "penulis": "Deerpeter",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABakso%20on%20the%20Street%20(Sanur%2C%20Bali).jpg",
+    "berkas_sumber": "Bakso on the Street (Sanur, Bali).jpg"
+  },
+  {
+    "slug": "seblak",
+    "judul": "Seblak",
+    "berkas": "images/resep/seblak.jpg",
+    "penulis": "Windi Utari",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABUMBU%20SEBLAK%20KUAH.png",
+    "berkas_sumber": "BUMBU SEBLAK KUAH.png"
+  },
+  {
+    "slug": "tauge-goreng",
+    "judul": "Tauge goreng",
+    "berkas": "images/resep/tauge-goreng.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATauge%20Goreng%202.JPG",
+    "berkas_sumber": "Tauge Goreng 2.JPG"
+  },
+  {
+    "slug": "bakpia",
+    "judul": "Bakpia",
+    "berkas": "images/resep/bakpia.jpg",
+    "penulis": "Keriliwi",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AHouse%20of%20Bakpiaku.jpg",
+    "berkas_sumber": "House of Bakpiaku.jpg"
+  },
+  {
+    "slug": "kue-bolu",
+    "judul": "Kue bolu",
+    "berkas": "images/resep/kue-bolu.jpg",
+    "penulis": "Ezagren (bicara / talk)",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABolu%20Bahari.JPG",
+    "berkas_sumber": "Bolu Bahari.JPG"
+  },
+  {
+    "slug": "kue-bugis",
+    "judul": "Kue bugis",
+    "berkas": "images/resep/kue-bugis.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKue%20bugis%20mandi.JPG",
+    "berkas_sumber": "Kue bugis mandi.JPG"
+  },
+  {
+    "slug": "lapis-legit",
+    "judul": "Lapis legit",
+    "berkas": "images/resep/lapis-legit.jpg",
+    "penulis": "Supardisahabu",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALapis%20Pandan.jpg",
+    "berkas_sumber": "Lapis Pandan.jpg"
+  },
+  {
+    "slug": "kue-lumpur-surga",
+    "judul": "Kue lumpur surga",
+    "berkas": "images/resep/kue-lumpur-surga.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKue%20lumpur%20surga.JPG",
+    "berkas_sumber": "Kue lumpur surga.JPG"
+  },
+  {
+    "slug": "nagasari",
+    "judul": "Nagasari",
+    "berkas": "images/resep/nagasari.jpg",
+    "penulis": "Suhendro winarso",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANagasari%20CC%20BY%20SA%204.0%20Suhendro%20Winarso.jpg",
+    "berkas_sumber": "Nagasari CC BY SA 4.0 Suhendro Winarso.jpg"
+  },
+  {
+    "slug": "pie-susu",
+    "judul": "Pie susu",
+    "berkas": "images/resep/pie-susu.jpg",
+    "penulis": "Joseagush",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APie%20Susu%20Side%20View.jpg",
+    "berkas_sumber": "Pie Susu Side View.jpg"
+  },
+  {
+    "slug": "kue-satu",
+    "judul": "Kue satu",
+    "berkas": "images/resep/kue-satu.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKue%20satu.JPG",
+    "berkas_sumber": "Kue satu.JPG"
+  },
+  {
+    "slug": "soda-gembira",
+    "judul": "Soda gembira",
+    "berkas": "images/resep/soda-gembira.jpg",
+    "penulis": "Crisco 1492",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoda%20Gembira%20ingredients%201.jpg",
+    "berkas_sumber": "Soda Gembira ingredients 1.jpg"
+  },
+  {
+    "slug": "wajik",
+    "judul": "Wajik",
+    "berkas": "images/resep/wajik.jpg",
+    "penulis": "Pangalau",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AGadong%20Night%20Market%204%20October%202024%2011.jpg",
+    "berkas_sumber": "Gadong Night Market 4 October 2024 11.jpg"
+  },
+  {
+    "slug": "lontong-kupang",
+    "judul": "Lontong kupang",
+    "berkas": "images/resep/lontong-kupang.jpg",
+    "penulis": "Wibowo Djatmiko (Wie146)",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKupang%20lont%20220717-190253%20krat.jpg",
+    "berkas_sumber": "Kupang lont 220717-190253 krat.jpg"
+  },
+  {
+    "slug": "lontong-cap-go-meh",
+    "judul": "Lontong Cap Go Meh",
+    "berkas": "images/resep/lontong-cap-go-meh.jpg",
+    "penulis": "Cun Cun",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALontong%20Cap%20Go%20Meh%20at%20Roemah%20Boeroeng%20Tangerang.jpg",
+    "berkas_sumber": "Lontong Cap Go Meh at Roemah Boeroeng Tangerang.jpg"
+  },
+  {
+    "slug": "pepes-jamur",
+    "judul": "Pepes jamur",
+    "berkas": "images/resep/pepes-jamur.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APepes%20jamur%20Jepara.JPG",
+    "berkas_sumber": "Pepes jamur Jepara.JPG"
+  },
+  {
+    "slug": "pepes-oncom",
+    "judul": "Pepes oncom",
+    "berkas": "images/resep/pepes-oncom.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APepes%20oncom%20daun%20melinjo.JPG",
+    "berkas_sumber": "Pepes oncom daun melinjo.JPG"
+  },
+  {
+    "slug": "bubur-ayam",
+    "judul": "Bubur ayam",
+    "berkas": "images/resep/bubur-ayam.jpg",
+    "penulis": "David Wadie Fisher-Freberg",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABubur%20ayam%20gerobak%20Stasiun%20Duren%20Kalibata.jpg",
+    "berkas_sumber": "Bubur ayam gerobak Stasiun Duren Kalibata.jpg"
+  },
+  {
+    "slug": "pisang-goreng",
+    "judul": "Pisang goreng",
+    "berkas": "images/resep/pisang-goreng.jpg",
+    "penulis": "Kyrosyahmi",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APisang%20goreng%20klasik.jpg",
+    "berkas_sumber": "Pisang goreng klasik.jpg"
+  },
+  {
+    "slug": "soto-padang",
+    "judul": "Soto Padang",
+    "berkas": "images/resep/soto-padang.jpg",
+    "penulis": "Afdhal Sy",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASepiring%20Soto%20Padang%20di%20Pasar%20Raya%20Padang.jpg",
+    "berkas_sumber": "Sepiring Soto Padang di Pasar Raya Padang.jpg"
+  },
+  {
+    "slug": "avocado-juice",
+    "judul": "Avocado juice",
+    "berkas": "images/resep/avocado-juice.jpg",
+    "penulis": "Fredynjeje",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMan%20Selling%20Juice.jpg",
+    "berkas_sumber": "Man Selling Juice.jpg"
+  },
+  {
+    "slug": "bubur-ketan-hitam",
+    "judul": "Bubur ketan hitam",
+    "berkas": "images/resep/bubur-ketan-hitam.jpg",
+    "penulis": "Andy Mabbett",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABubur%20Ketan%20hitam%20dengan%20Biji%20Ketapang%20-%202025-02-16%20-%20Andy%20Mabbett%20-%2002.jpg",
+    "berkas_sumber": "Bubur Ketan hitam dengan Biji Ketapang - 2025-02-16 - Andy Mabbett - 02.jpg"
+  },
+  {
+    "slug": "es-oyen",
+    "judul": "Es oyen",
+    "berkas": "images/resep/es-oyen.jpg",
+    "penulis": "Indonesiagood",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AEs%20Oyen.jpg",
+    "berkas_sumber": "Es Oyen.jpg"
+  },
+  {
+    "slug": "es-pisang-ijo",
+    "judul": "Es pisang ijo",
+    "berkas": "images/resep/es-pisang-ijo.jpg",
+    "penulis": "Andreanrama",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AEs%20pisang%20ijo.jpg",
+    "berkas_sumber": "Es pisang ijo.jpg"
+  },
+  {
+    "slug": "ice-kacang",
+    "judul": "Ice kacang",
+    "berkas": "images/resep/ice-kacang.jpg",
+    "penulis": "Yu Chu Chin",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAir%20batu%20campur%20(ABC)%20dessert%20in%20Kuala%20Belait%2C%20Brunei%20-%2001.jpg",
+    "berkas_sumber": "Air batu campur (ABC) dessert in Kuala Belait, Brunei - 01.jpg"
+  },
+  {
+    "slug": "pandan-cake",
+    "judul": "Pandan cake",
+    "berkas": "images/resep/pandan-cake.jpg",
+    "penulis": "Peachyeung316",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AA%20Pandan%20Cake.jpg",
+    "berkas_sumber": "A Pandan Cake.jpg"
+  },
+  {
+    "slug": "nasi-campur-tionghoa",
+    "judul": "Nasi campur Tionghoa",
+    "berkas": "images/resep/nasi-campur-tionghoa.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Campur%20Tionghoa%20Kenanga%201.jpg",
+    "berkas_sumber": "Nasi Campur Tionghoa Kenanga 1.jpg"
+  },
+  {
+    "slug": "nasi-goreng-ikan-asin",
+    "judul": "Nasi goreng ikan asin",
+    "berkas": "images/resep/nasi-goreng-ikan-asin.jpg",
+    "penulis": "Sakurai Midori",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20goreng%20ikan%20asin.JPG",
+    "berkas_sumber": "Nasi goreng ikan asin.JPG"
+  },
+  {
+    "slug": "nasi-goreng-kambing",
+    "judul": "Nasi goreng kambing",
+    "berkas": "images/resep/nasi-goreng-kambing.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Goreng%20Kambing%20Kebon%20Sirih%20Jakarta%202.jpg",
+    "berkas_sumber": "Nasi Goreng Kambing Kebon Sirih Jakarta 2.jpg"
+  },
+  {
+    "slug": "nasi-goreng-kampung",
+    "judul": "Nasi Goreng Kampung",
+    "berkas": "images/resep/nasi-goreng-kampung.jpg",
+    "penulis": "Misaochan",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20goreng%20kampung.jpg",
+    "berkas_sumber": "Nasi goreng kampung.jpg"
+  },
+  {
+    "slug": "nasi-goreng-merah",
+    "judul": "Nasi goreng merah",
+    "berkas": "images/resep/nasi-goreng-merah.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20goreng%20di%20Rantepao.JPG",
+    "berkas_sumber": "Nasi goreng di Rantepao.JPG"
+  },
+  {
+    "slug": "nasi-goreng-petai",
+    "judul": "Nasi goreng petai",
+    "berkas": "images/resep/nasi-goreng-petai.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Goreng%20Pete%20Kambing.JPG",
+    "berkas_sumber": "Nasi Goreng Pete Kambing.JPG"
+  },
+  {
+    "slug": "lot-chong",
+    "judul": "Lot chong",
+    "berkas": "images/resep/lot-chong.jpg",
+    "penulis": "Chainwit.",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%8C%E0%B9%82%E0%B8%A0%E0%B8%8A%E0%B8%99%E0%B8%B2%20(%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%8C%20%E0%B9%80%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%A3%E0%B8%B2%E0%B8%8A)%20(2025)%20-%20img%2004.jpg",
+    "berkas_sumber": "สิงคโปร์โภชนา (ลอดช่องสิงคโปร์ เยาวราช) (2025) - img 04.jpg"
+  },
+  {
+    "slug": "wijilan",
+    "judul": "Wijilan",
+    "berkas": "images/resep/wijilan.jpg",
+    "penulis": "Slleong",
+    "lisensi": "CC0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AWijilan%201.jpg",
+    "berkas_sumber": "Wijilan 1.jpg"
+  },
+  {
+    "slug": "gulai-ayam",
+    "judul": "Gulai ayam",
+    "berkas": "images/resep/gulai-ayam.jpg",
+    "penulis": "Andy Li",
+    "lisensi": "CC0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AGulai%20Chicken%20-%20Bali%202025-11-19.jpg",
+    "berkas_sumber": "Gulai Chicken - Bali 2025-11-19.jpg"
+  },
+  {
+    "slug": "gulai-sotong",
+    "judul": "Gulai sotong",
+    "berkas": "images/resep/gulai-sotong.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AGulai%20sotong%20isi%20telur%20bebek.JPG",
+    "berkas_sumber": "Gulai sotong isi telur bebek.JPG"
+  },
+  {
+    "slug": "kalalapun",
+    "judul": "Kalalapun",
+    "berkas": "images/resep/kalalapun.jpg",
+    "penulis": "Tim WikiPuluran - WikiBanua",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKalalapun%20001.jpg",
+    "berkas_sumber": "Kalalapun 001.jpg"
+  },
+  {
+    "slug": "laksa-betawi",
+    "judul": "Laksa Betawi",
+    "berkas": "images/resep/laksa-betawi.jpg",
+    "penulis": "Sakurai Midori",
+    "lisensi": "CC BY-SA 2.5",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALaksa%20Jakarta.JPG",
+    "berkas_sumber": "Laksa Jakarta.JPG"
+  },
+  {
+    "slug": "laksa-bogor",
+    "judul": "Laksa Bogor",
+    "berkas": "images/resep/laksa-bogor.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALaksa%20Bogor%202.JPG",
+    "berkas_sumber": "Laksa Bogor 2.JPG"
+  },
+  {
+    "slug": "laksan",
+    "judul": "Laksan",
+    "berkas": "images/resep/laksan.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALakso%20Burgo%20Laksan%202.jpg",
+    "berkas_sumber": "Lakso Burgo Laksan 2.jpg"
+  },
+  {
+    "slug": "lakso",
+    "judul": "Lakso",
+    "berkas": "images/resep/lakso.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALakso%20Burgo%20Laksan%201.jpg",
+    "berkas_sumber": "Lakso Burgo Laksan 1.jpg"
+  },
+  {
+    "slug": "laksa-tangerang",
+    "judul": "Laksa Tangerang",
+    "berkas": "images/resep/laksa-tangerang.jpg",
+    "penulis": "Cun Cun",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALaksa%20benteng%20Tionghoa%20Peranakan%20Tangerang.jpg",
+    "berkas_sumber": "Laksa benteng Tionghoa Peranakan Tangerang.jpg"
+  },
+  {
+    "slug": "rendang-jariang",
+    "judul": "Rendang jariang",
+    "berkas": "images/resep/rendang-jariang.jpg",
+    "penulis": "S Kartika",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARandang%20Jariang%203.jpg",
+    "berkas_sumber": "Randang Jariang 3.jpg"
+  },
+  {
+    "slug": "rendang-lokan",
+    "judul": "Rendang lokan",
+    "berkas": "images/resep/rendang-lokan.jpg",
+    "penulis": "S Kartika",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARandang%20Lokan%202.jpg",
+    "berkas_sumber": "Randang Lokan 2.jpg"
+  },
+  {
+    "slug": "rendang-maco",
+    "judul": "Rendang maco",
+    "berkas": "images/resep/rendang-maco.jpg",
+    "penulis": "Onyaso",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARandang%20maco.jpg",
+    "berkas_sumber": "Randang maco.jpg"
+  },
+  {
+    "slug": "rendang-talua",
+    "judul": "Rendang talua",
+    "berkas": "images/resep/rendang-talua.jpg",
+    "penulis": "Onyaso",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ARandang%20talua%20kariang.jpg",
+    "berkas_sumber": "Randang talua kariang.jpg"
+  },
+  {
+    "slug": "soto-babat",
+    "judul": "Soto babat",
+    "berkas": "images/resep/soto-babat.jpg",
+    "penulis": "Raflinoer32",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoto%20babat.jpg",
+    "berkas_sumber": "Soto babat.jpg"
+  },
+  {
+    "slug": "soto-bandung",
+    "judul": "Soto Bandung",
+    "berkas": "images/resep/soto-bandung.jpg",
+    "penulis": "Azlan DuPree",
+    "lisensi": "CC BY 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AEating%20Soto%20Bandung.jpg",
+    "berkas_sumber": "Eating Soto Bandung.jpg"
+  },
+  {
+    "slug": "soto-banjar",
+    "judul": "Soto Banjar",
+    "berkas": "images/resep/soto-banjar.jpg",
+    "penulis": "Crisco 1492",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoto%20banjar%2C%20Pak%20Ahmat%2C%20Martapura%2C%20South%20Kalimantan%2C%202018-07-28%2002.jpg",
+    "berkas_sumber": "Soto banjar, Pak Ahmat, Martapura, South Kalimantan, 2018-07-28 02.jpg"
+  },
+  {
+    "slug": "soto-betawi",
+    "judul": "Soto Betawi",
+    "berkas": "images/resep/soto-betawi.jpg",
+    "penulis": "Irhanz",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASOTO%20BETAWI.jpg",
+    "berkas_sumber": "SOTO BETAWI.jpg"
+  },
+  {
+    "slug": "soto-ceker",
+    "judul": "Soto ceker",
+    "berkas": "images/resep/soto-ceker.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoto%20Ceker%201.jpg",
+    "berkas_sumber": "Soto Ceker 1.jpg"
+  },
+  {
+    "slug": "coto-makassar",
+    "judul": "Coto Makassar",
+    "berkas": "images/resep/coto-makassar.jpg",
+    "penulis": "Rulwarih",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ACoto%20Makassar%2020251003.jpg",
+    "berkas_sumber": "Coto Makassar 20251003.jpg"
+  },
+  {
+    "slug": "soto-kaki",
+    "judul": "Soto kaki",
+    "berkas": "images/resep/soto-kaki.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoto%20kaki%20kambing.JPG",
+    "berkas_sumber": "Soto kaki kambing.JPG"
+  },
+  {
+    "slug": "soto-kudus",
+    "judul": "Soto Kudus",
+    "berkas": "images/resep/soto-kudus.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoto%20Kudus%20nasi.JPG",
+    "berkas_sumber": "Soto Kudus nasi.JPG"
+  },
+  {
+    "slug": "soto-lamongan",
+    "judul": "Soto Lamongan",
+    "berkas": "images/resep/soto-lamongan.jpg",
+    "penulis": "Raflinoer32",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoto%20ayam%20dan%20es%20teh.jpg",
+    "berkas_sumber": "Soto ayam dan es teh.jpg"
+  },
+  {
+    "slug": "soto-madura",
+    "judul": "Soto Madura",
+    "berkas": "images/resep/soto-madura.jpg",
+    "penulis": "Alpha from Melbourne, Australia",
+    "lisensi": "CC BY-SA 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoto%20Madura%20-%20Blok%20M%20Express%20(2834700674).jpg",
+    "berkas_sumber": "Soto Madura - Blok M Express (2834700674).jpg"
+  },
+  {
+    "slug": "soto-medan",
+    "judul": "Soto Medan",
+    "berkas": "images/resep/soto-medan.jpg",
+    "penulis": "Risanprasetyo/Febri Ady Prasetyo",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoto%20Medan%20di%20Yogyakarta.jpg",
+    "berkas_sumber": "Soto Medan di Yogyakarta.jpg"
+  },
+  {
+    "slug": "sop-saudara",
+    "judul": "Sop Saudara",
+    "berkas": "images/resep/sop-saudara.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASop%20saudara%20nasi%20putih.JPG",
+    "berkas_sumber": "Sop saudara nasi putih.JPG"
+  },
+  {
+    "slug": "soto-garing",
+    "judul": "Soto garing",
+    "berkas": "images/resep/soto-garing.jpg",
+    "penulis": "Risanprasetyo/Febri Ady Prasetyo",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoto%20garing.jpg",
+    "berkas_sumber": "Soto garing.jpg"
+  },
+  {
+    "slug": "soto-sapi",
+    "judul": "Soto sapi",
+    "berkas": "images/resep/soto-sapi.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASoto%20sapi%20Pak%20Marto%20Yogyakarta.JPG",
+    "berkas_sumber": "Soto sapi Pak Marto Yogyakarta.JPG"
+  },
+  {
+    "slug": "sroto-sokaraja",
+    "judul": "Sroto Sokaraja",
+    "berkas": "images/resep/sroto-sokaraja.jpg",
+    "penulis": "Kembangraps",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASroto%20Purbalingga%20DSC%204327.jpg",
+    "berkas_sumber": "Sroto Purbalingga DSC 4327.jpg"
+  },
+  {
+    "slug": "kerak-telor-vendors",
+    "judul": "Kerak Telor vendors",
+    "berkas": "images/resep/kerak-telor-vendors.jpg",
+    "penulis": "Herusutimbul",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APenjual%20Kerak%20Telor%20dimasa%20Pandemi.jpg",
+    "berkas_sumber": "Penjual Kerak Telor dimasa Pandemi.jpg"
+  },
+  {
+    "slug": "egg-martabak",
+    "judul": "Egg martabak",
+    "berkas": "images/resep/egg-martabak.jpg",
+    "penulis": "Mojackjutaily",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMurtabak.jpg",
+    "berkas_sumber": "Murtabak.jpg"
+  },
+  {
+    "slug": "martabak-kubang",
+    "judul": "Martabak Kubang",
+    "berkas": "images/resep/martabak-kubang.jpg",
+    "penulis": "D.W. Fisher-Freberg",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMartabak%20Kubang%20Asli.JPG",
+    "berkas_sumber": "Martabak Kubang Asli.JPG"
+  },
+  {
+    "slug": "martabak-preparation",
+    "judul": "Martabak preparation",
+    "berkas": "images/resep/martabak-preparation.jpg",
+    "penulis": "MakeLife2013Again",
+    "lisensi": "CC0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ATo%20cook%20a%20martabak.jpg",
+    "berkas_sumber": "To cook a martabak.jpg"
+  },
+  {
+    "slug": "martabak-palembang",
+    "judul": "Martabak Palembang",
+    "berkas": "images/resep/martabak-palembang.jpg",
+    "penulis": "fitri agung from Pekanbaru, Riau, Indonesia, Indonesia",
+    "lisensi": "CC BY 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMartabak%20palembang.jpg",
+    "berkas_sumber": "Martabak palembang.jpg"
+  },
+  {
+    "slug": "martabak-stalls",
+    "judul": "Martabak stalls",
+    "berkas": "images/resep/martabak-stalls.jpg",
+    "penulis": "CEphoto, Uwe Aranas",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AJakarta%20Indonesia%20Hawkers-in-Kota-Jakarta-02.jpg",
+    "berkas_sumber": "Jakarta Indonesia Hawkers-in-Kota-Jakarta-02.jpg"
+  },
+  {
+    "slug": "fried-gourami",
+    "judul": "Fried gourami",
+    "berkas": "images/resep/fried-gourami.jpg",
+    "penulis": "Jeromi Mikhael",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASpicy%20Fried%20Gourami.jpg",
+    "berkas_sumber": "Spicy Fried Gourami.jpg"
+  },
+  {
+    "slug": "ikan-goreng",
+    "judul": "Ikan goreng",
+    "berkas": "images/resep/ikan-goreng.jpg",
+    "penulis": "SpartacksCompatriot",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AFried%20fish%20of%20Ulakan.JPG",
+    "berkas_sumber": "Fried fish of Ulakan.JPG"
+  },
+  {
+    "slug": "pecel-lele",
+    "judul": "Pecel lele",
+    "berkas": "images/resep/pecel-lele.jpg",
+    "penulis": "Si Gam",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Uduk%20Pecel%20Lele.jpg",
+    "berkas_sumber": "Nasi Uduk Pecel Lele.jpg"
+  },
+  {
+    "slug": "cumi-asin",
+    "judul": "Cumi asin",
+    "berkas": "images/resep/cumi-asin.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AEmpal%20Gepuk%20Daging%20and%20Cumi%20Asin.jpg",
+    "berkas_sumber": "Empal Gepuk Daging and Cumi Asin.jpg"
+  },
+  {
+    "slug": "tude-rica-rica",
+    "judul": "Tude rica-rica",
+    "berkas": "images/resep/tude-rica-rica.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMie%20Cakalang%20Tude%20Rica-rica%201.jpg",
+    "berkas_sumber": "Mie Cakalang Tude Rica-rica 1.jpg"
+  },
+  {
+    "slug": "pempek-kapal-selam",
+    "judul": "Pempek kapal selam",
+    "berkas": "images/resep/pempek-kapal-selam.jpg",
+    "penulis": "Muchtarrprincess",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APempek%20Kapal%20Selam%20Vico%20(Khas%20Palembang).jpg",
+    "berkas_sumber": "Pempek Kapal Selam Vico (Khas Palembang).jpg"
+  },
+  {
+    "slug": "pempek-kulit",
+    "judul": "Pempek kulit",
+    "berkas": "images/resep/pempek-kulit.jpg",
+    "penulis": "Mm4tchaaa",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APempek%20Kulit%20khas%20Palembang.jpg",
+    "berkas_sumber": "Pempek Kulit khas Palembang.jpg"
+  },
+  {
+    "slug": "pempek-vendors",
+    "judul": "Pempek vendors",
+    "berkas": "images/resep/pempek-vendors.jpg",
+    "penulis": "Cun Cun",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APempek%20telor%20in%20a%20display%20Jakarta%207%20August%202018.jpg",
+    "berkas_sumber": "Pempek telor in a display Jakarta 7 August 2018.jpg"
+  },
+  {
+    "slug": "pindang-patin",
+    "judul": "Pindang patin",
+    "berkas": "images/resep/pindang-patin.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APindang%20Patin%20Palembang%203.jpg",
+    "berkas_sumber": "Pindang Patin Palembang 3.jpg"
+  },
+  {
+    "slug": "squirrel-fish",
+    "judul": "Squirrel fish",
+    "berkas": "images/resep/squirrel-fish.jpg",
+    "penulis": "Royal Sailor",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASquirrel%20fish%20in%20Dongguan.jpg",
+    "berkas_sumber": "Squirrel fish in Dongguan.jpg"
+  },
+  {
+    "slug": "tangcu-liyu",
+    "judul": "Tangcu Liyu",
+    "berkas": "images/resep/tangcu-liyu.jpg",
+    "penulis": "Suginami",
+    "lisensi": "CC0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3A%E7%B3%96%E9%86%8B%E9%B2%A4%E9%B1%BC2024%EF%BC%88%E5%BE%B7%E5%B7%9E%EF%BC%89.jpg",
+    "berkas_sumber": "糖醋鲤鱼2024（德州）.jpg"
+  },
+  {
+    "slug": "dendeng",
+    "judul": "Dendeng",
+    "berkas": "images/resep/dendeng.jpg",
+    "penulis": "D.W. Fisher-Freberg",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ADendeng%20baracik%20of%20Muaro%20Kalaban.JPG",
+    "berkas_sumber": "Dendeng baracik of Muaro Kalaban.JPG"
+  },
+  {
+    "slug": "empal-gentong",
+    "judul": "Empal gentong",
+    "berkas": "images/resep/empal-gentong.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AEmpal%20gentong%20boiled%20cow%20intestine.JPG",
+    "berkas_sumber": "Empal gentong boiled cow intestine.JPG"
+  },
+  {
+    "slug": "iga-penyet",
+    "judul": "Iga penyet",
+    "berkas": "images/resep/iga-penyet.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AIga%20Penyet.JPG",
+    "berkas_sumber": "Iga Penyet.JPG"
+  },
+  {
+    "slug": "konro",
+    "judul": "Konro",
+    "berkas": "images/resep/konro.jpg",
+    "penulis": "Sabjan Badio",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKonro%20bakar.jpg",
+    "berkas_sumber": "Konro bakar.jpg"
+  },
+  {
+    "slug": "ayam-kurma",
+    "judul": "Ayam kurma",
+    "berkas": "images/resep/ayam-kurma.jpg",
+    "penulis": "Nur Aishah Binti Abdullah",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKurma%20Ayam%20Campur%20Kentang.jpg",
+    "berkas_sumber": "Kurma Ayam Campur Kentang.jpg"
+  },
+  {
+    "slug": "ayam-ungkep",
+    "judul": "Ayam ungkep",
+    "berkas": "images/resep/ayam-ungkep.jpg",
+    "penulis": "Abdul Hanif Arromy",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAyam%20Ungkep%20di%20Alun-Alun%20Jombang%20091345.jpg",
+    "berkas_sumber": "Ayam Ungkep di Alun-Alun Jombang 091345.jpg"
+  },
+  {
+    "slug": "ayam-rica-rica",
+    "judul": "Ayam rica-rica",
+    "berkas": "images/resep/ayam-rica-rica.jpg",
+    "penulis": "Nesnad",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAyam%20rica-rica%202010.jpg",
+    "berkas_sumber": "Ayam rica-rica 2010.jpg"
+  },
+  {
+    "slug": "bebek-goreng",
+    "judul": "Bebek goreng",
+    "berkas": "images/resep/bebek-goreng.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20bebek%20goreng%20Ubud%20Bali.JPG",
+    "berkas_sumber": "Nasi bebek goreng Ubud Bali.JPG"
+  },
+  {
+    "slug": "sup-kambing",
+    "judul": "Sup kambing",
+    "berkas": "images/resep/sup-kambing.jpg",
+    "penulis": "Edwin Maolana from Depok | Jakarta | Batam, Indonesia",
+    "lisensi": "CC BY 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASup%20kepala%20kambing.jpg",
+    "berkas_sumber": "Sup kepala kambing.jpg"
+  },
+  {
+    "slug": "babi-hong",
+    "judul": "Babi hong",
+    "berkas": "images/resep/babi-hong.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABabi%20Hong%202.jpg",
+    "berkas_sumber": "Babi Hong 2.jpg"
+  },
+  {
+    "slug": "babi-kecap",
+    "judul": "Babi kecap",
+    "berkas": "images/resep/babi-kecap.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABabi%20kecap%201.jpg",
+    "berkas_sumber": "Babi kecap 1.jpg"
+  },
+  {
+    "slug": "babi-panggang",
+    "judul": "Babi Panggang",
+    "berkas": "images/resep/babi-panggang.jpg",
+    "penulis": "Stacy Qilla",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABabi%20Panggang.jpg",
+    "berkas_sumber": "Babi Panggang.jpg"
+  },
+  {
+    "slug": "babi-rica-rica",
+    "judul": "Babi rica-rica",
+    "berkas": "images/resep/babi-rica-rica.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABabi%20Rica-rica%201.jpg",
+    "berkas_sumber": "Babi Rica-rica 1.jpg"
+  },
+  {
+    "slug": "panggang",
+    "judul": "Panggang",
+    "berkas": "images/resep/panggang.jpg",
+    "penulis": "Risanprasetyo/Febri Ady Prasetyo",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABatu-batu%20candi%20di%20situs%20makam%20Kadisobo.jpg",
+    "berkas_sumber": "Batu-batu candi di situs makam Kadisobo.jpg"
+  },
+  {
+    "slug": "saksang",
+    "judul": "Saksang",
+    "berkas": "images/resep/saksang.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABatak%20Cuisine%20Saksang%20and%20Panggang%202.JPG",
+    "berkas_sumber": "Batak Cuisine Saksang and Panggang 2.JPG"
+  },
+  {
+    "slug": "se-i",
+    "judul": "Se'i",
+    "berkas": "images/resep/se-i.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASe'i%20Babi%201.JPG",
+    "berkas_sumber": "Se'i Babi 1.JPG"
+  },
+  {
+    "slug": "sekba",
+    "judul": "Sekba",
+    "berkas": "images/resep/sekba.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASekba%202.jpg",
+    "berkas_sumber": "Sekba 2.jpg"
+  },
+  {
+    "slug": "bakso-bakar",
+    "judul": "Bakso bakar",
+    "berkas": "images/resep/bakso-bakar.jpg",
+    "penulis": "Muhamad Izzul Fiqih",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3APembuatan%20bakso%20bakar%2002.jpg",
+    "berkas_sumber": "Pembuatan bakso bakar 02.jpg"
+  },
+  {
+    "slug": "bakso-beranak",
+    "judul": "Bakso beranak",
+    "berkas": "images/resep/bakso-beranak.jpg",
+    "penulis": "Fitriamalian",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABakso%20Beranak.jpg",
+    "berkas_sumber": "Bakso Beranak.jpg"
+  },
+  {
+    "slug": "bakso-goreng",
+    "judul": "Bakso goreng",
+    "berkas": "images/resep/bakso-goreng.jpg",
+    "penulis": "Abdul Hanif Arromy",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABakso%20Goreng%20di%20Alun-Alun%20Jombang%20090915.jpg",
+    "berkas_sumber": "Bakso Goreng di Alun-Alun Jombang 090915.jpg"
+  },
+  {
+    "slug": "bakso-malang",
+    "judul": "Bakso Malang",
+    "berkas": "images/resep/bakso-malang.jpg",
+    "penulis": "Shinta amalia",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABakso%20bakar%20malang.jpg",
+    "berkas_sumber": "Bakso bakar malang.jpg"
+  },
+  {
+    "slug": "bakso-solo",
+    "judul": "Bakso solo",
+    "berkas": "images/resep/bakso-solo.jpg",
+    "penulis": "Wiwik P",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABakso%20mekar.jpg",
+    "berkas_sumber": "Bakso mekar.jpg"
+  },
+  {
+    "slug": "perkedel",
+    "judul": "Perkedel",
+    "berkas": "images/resep/perkedel.jpg",
+    "penulis": "Wiki Farazi",
+    "lisensi": "CC0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20putih%20dengan%20sambal%20kerang%2C%20tauge%20tumis%20dan%20bergedel%20kentang%2020250124%20115345.jpg",
+    "berkas_sumber": "Nasi putih dengan sambal kerang, tauge tumis dan bergedel kentang 20250124 115345.jpg"
+  },
+  {
+    "slug": "bakmi-bangka",
+    "judul": "Bakmi bangka",
+    "berkas": "images/resep/bakmi-bangka.jpg",
+    "penulis": "Cun Cun",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3A%E5%8D%B0%E5%B0%BC%E9%82%A6%E5%8A%A0%E5%B3%B6%E6%AA%B3%E6%B8%AF%E5%B8%82%E7%B4%A0%E6%8E%A9%E9%9D%A2.jpg",
+    "berkas_sumber": "印尼邦加島檳港市素掩面.jpg"
+  },
+  {
+    "slug": "kwetiau-goreng",
+    "judul": "Kwetiau goreng",
+    "berkas": "images/resep/kwetiau-goreng.jpg",
+    "penulis": "D.W. Fisher-Freberg",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AIndonesian%20fried%20kwetiau.JPG",
+    "berkas_sumber": "Indonesian fried kwetiau.JPG"
+  },
+  {
+    "slug": "bubur-kacang-hijau",
+    "judul": "Bubur kacang hijau",
+    "berkas": "images/resep/bubur-kacang-hijau.jpg",
+    "penulis": "Supardisahabu",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABubur%20Kacang%20Hijau%20(Sorba).jpg",
+    "berkas_sumber": "Bubur Kacang Hijau (Sorba).jpg"
+  },
+  {
+    "slug": "ang-ku-kueh",
+    "judul": "Ang ku kueh",
+    "berkas": "images/resep/ang-ku-kueh.jpg",
+    "penulis": "創作者：陳進傳;林躍龍。貢獻者：宜蘭縣政府文化局",
+    "lisensi": "CC BY 3.0 tw",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3A%E8%94%A1%E6%A6%AE%E8%88%88%E9%9B%95%E5%88%BB%E7%A4%BE-108-cra-pa-1529-re-201912251727195e0322e68e6190.jpg",
+    "berkas_sumber": "蔡榮興雕刻社-108-cra-pa-1529-re-201912251727195e0322e68e6190.jpg"
+  },
+  {
+    "slug": "cilok",
+    "judul": "Cilok",
+    "berkas": "images/resep/cilok.jpg",
+    "penulis": "Asep uwais",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ACilok%20crispy%20dengan%20saus%20bawang%20versi%20cilok%20uwais%2C%20makanan%20siap%20saji%20khas%20tasikmalaya.jpg",
+    "berkas_sumber": "Cilok crispy dengan saus bawang versi cilok uwais, makanan siap saji khas tasikmalaya.jpg"
+  },
+  {
+    "slug": "kue-putu",
+    "judul": "Kue Putu",
+    "berkas": "images/resep/kue-putu.jpg",
+    "penulis": "RahmadHimawan Photography",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKue%20Putu%20Bengkulu.jpg",
+    "berkas_sumber": "Kue Putu Bengkulu.jpg"
+  },
+  {
+    "slug": "cenil",
+    "judul": "Cenil",
+    "berkas": "images/resep/cenil.jpg",
+    "penulis": "Robijuniarta",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ACenil%20Khas%20Tulungagung.jpg",
+    "berkas_sumber": "Cenil Khas Tulungagung.jpg"
+  },
+  {
+    "slug": "clorot",
+    "judul": "Clorot",
+    "berkas": "images/resep/clorot.jpg",
+    "penulis": "Wiendietry Rusli from Bandung, Indonesia",
+    "lisensi": "CC BY 2.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ACerorot.jpg",
+    "berkas_sumber": "Cerorot.jpg"
+  },
+  {
+    "slug": "kue-lapis",
+    "judul": "Kue lapis",
+    "berkas": "images/resep/kue-lapis.jpg",
+    "penulis": "Shitadevi",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKue%20Lapis.jpg",
+    "berkas_sumber": "Kue Lapis.jpg"
+  },
+  {
+    "slug": "ketupat-weaving",
+    "judul": "Ketupat weaving",
+    "berkas": "images/resep/ketupat-weaving.jpg",
+    "penulis": "Azreey",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKetupats%20prepared%20to%20be%20cooked.jpg",
+    "berkas_sumber": "Ketupats prepared to be cooked.jpg"
+  },
+  {
+    "slug": "ketupat-decorations",
+    "judul": "Ketupat decorations",
+    "berkas": "images/resep/ketupat-decorations.jpg",
+    "penulis": "Jpquidores",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKetupat%20Raya%206.jpg",
+    "berkas_sumber": "Ketupat Raya 6.jpg"
+  },
+  {
+    "slug": "ketupat-palas",
+    "judul": "Ketupat palas",
+    "berkas": "images/resep/ketupat-palas.jpg",
+    "penulis": "Miss Izzah",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKetupat%20palas.jpg",
+    "berkas_sumber": "Ketupat palas.jpg"
+  },
+  {
+    "slug": "ketupat-sotong",
+    "judul": "Ketupat sotong",
+    "berkas": "images/resep/ketupat-sotong.jpg",
+    "penulis": "Mdsheth1986",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKetupat%20Sotong%20Terengganu.jpg",
+    "berkas_sumber": "Ketupat Sotong Terengganu.jpg"
+  },
+  {
+    "slug": "kupat-tahu",
+    "judul": "Kupat tahu",
+    "berkas": "images/resep/kupat-tahu.jpg",
+    "penulis": "NFarras",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKupat%20Tahu%2012%20Pas%20Padalarang.jpg",
+    "berkas_sumber": "Kupat Tahu 12 Pas Padalarang.jpg"
+  },
+  {
+    "slug": "black-pepper-crab",
+    "judul": "Black pepper crab",
+    "berkas": "images/resep/black-pepper-crab.jpg",
+    "penulis": "Midori",
+    "lisensi": "CC BY 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AKepiting%20lada%20hitam%20mutiara%20asli%20Kalimantan.JPG",
+    "berkas_sumber": "Kepiting lada hitam mutiara asli Kalimantan.JPG"
+  },
+  {
+    "slug": "cakalang-fufu",
+    "judul": "Cakalang fufu",
+    "berkas": "images/resep/cakalang-fufu.jpg",
+    "penulis": "Supardisahabu",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ACakalang%20Bakar%20Rica.jpg",
+    "berkas_sumber": "Cakalang Bakar Rica.jpg"
+  },
+  {
+    "slug": "sup-kerang-hijau",
+    "judul": "Sup Kerang Hijau",
+    "berkas": "images/resep/sup-kerang-hijau.jpg",
+    "penulis": "Abdul Hanif Arromy",
+    "lisensi": "CC BY 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASup%20Kerang%20Hijau%20211315.jpg",
+    "berkas_sumber": "Sup Kerang Hijau 211315.jpg"
+  },
+  {
+    "slug": "ikan-salai",
+    "judul": "Ikan salai",
+    "berkas": "images/resep/ikan-salai.jpg",
+    "penulis": "Ketupat",
+    "lisensi": "CC BY-SA 3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AIkan%20keli%20salai.JPG",
+    "berkas_sumber": "Ikan keli salai.JPG"
+  },
+  {
+    "slug": "sambal-cumi",
+    "judul": "Sambal cumi",
+    "berkas": "images/resep/sambal-cumi.jpg",
+    "penulis": "Gunawan Kartapranata",
+    "lisensi": "CC BY-SA 4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ANasi%20Lemak%20Sambal%20Cumi%20in%20Indonesia%204.jpg",
+    "berkas_sumber": "Nasi Lemak Sambal Cumi in Indonesia 4.jpg"
+  }
+]
