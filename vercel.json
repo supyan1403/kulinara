@@ -1,19 +1,13 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm run build",
-  "outputDirectory": "public",
-  "functions": {
-    "api/index.php": {
-      "runtime": "vercel-php@0.8.0"
+  "services": {
+    "app": {
+      "root": ".",
+      "entrypoint": "Dockerfile",
+      "runtime": "container"
     }
   },
-  "routes": [
-    { "src": "/build/(.*)", "dest": "/public/build/$1" },
-    { "src": "/video/(.*)", "dest": "/public/video/$1" },
-    { "src": "/images/(.*)", "dest": "/public/images/$1" },
-    { "src": "/storage/(.*)", "dest": "/public/storage/$1" },
-    { "src": "/favicon.ico", "dest": "/public/favicon.ico" },
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/api/index.php" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": { "service": "app" } }
   ]
 }
