@@ -9,7 +9,8 @@ FROM dunglas/frankenphp:1-php8.4-bookworm AS base
 # Ekstensi wajib proyek (composer.json: ext-pdo, ext-pdo_pgsql) + zip
 # untuk instalasi composer berbasis dist.
 RUN cp "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" \
-    && install-php-extensions pdo_pgsql zip
+    && install-php-extensions pdo_pgsql zip \
+    && echo 'display_errors = On' > "$PHP_INI_DIR/conf.d/debug.ini"
 
 WORKDIR /app
 
@@ -54,7 +55,12 @@ RUN mkdir -p \
         storage/logs \
         bootstrap/cache
 
-RUN composer dump-autoload --no-dev --classmap-authoritative --no-scripts
+RUN composer dump-autoload --no-dev --optimize-autoloader --no-scripts
+
+# discover jalan saat build supaya error bootstrap ketahuan di sini (log
+# build), bukan senyap di runtime. Cache-nya tetap ditulis ke
+# bootstrap/cache yang writable di image.
+RUN php artisan package:discover --ansi 2>&1
 
 RUN chown -R www-data:www-data storage bootstrap/cache
 
