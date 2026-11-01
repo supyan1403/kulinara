@@ -52,10 +52,16 @@ RUN mkdir -p \
         storage/framework/sessions \
         storage/framework/views \
         storage/logs \
-        bootstrap/cache \
-    && composer dump-autoload --no-dev --classmap-authoritative --no-scripts \
-    && php artisan package:discover --ansi \
-    && chown -R www-data:www-data storage bootstrap/cache
+        bootstrap/cache
+
+RUN composer dump-autoload --no-dev --classmap-authoritative --no-scripts
+
+# package:discover diakhiri `|| true` sadar: hasilnya (bootstrap/cache/packages.php)
+# hanya cache — Laravel menemukan package lagi saat runtime karena
+# bootstrap/cache writable oleh www-data. Build tidak boleh gagal karenanya.
+RUN php artisan package:discover --ansi -vvv 2>&1 || true
+
+RUN chown -R www-data:www-data storage bootstrap/cache
 
 COPY --chown=www-data:www-data Caddyfile /etc/frankenphp/Caddyfile
 
