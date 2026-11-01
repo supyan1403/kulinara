@@ -9,8 +9,7 @@ FROM dunglas/frankenphp:1-php8.4-bookworm AS base
 # Ekstensi wajib proyek (composer.json: ext-pdo, ext-pdo_pgsql) + zip
 # untuk instalasi composer berbasis dist.
 RUN cp "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" \
-    && install-php-extensions pdo_pgsql zip \
-    && echo 'display_errors = On' > "$PHP_INI_DIR/conf.d/debug.ini"
+    && install-php-extensions pdo_pgsql zip
 
 WORKDIR /app
 
@@ -67,16 +66,7 @@ RUN mkdir -p \
 
 RUN composer dump-autoload --no-dev -o --no-scripts
 
-# Debug sekali pakai: buktikan isi installed.json, bootstrap/cache, dan env
-# persis saat artisan discover dijalankan.
-RUN echo '=== installed.json dev pkg check ===' \
-    && php -r '$j=json_decode(file_get_contents("vendor/composer/installed.json"),true); $names=array_column($j["packages"]??[], "name"); echo "total packages: ".count($names)."\n"; foreach($names as $n){ if(preg_match("#breeze|pail|pao#",$n)) echo "FOUND: $n\n"; }' \
-    && echo '=== bootstrap/cache listing ===' \
-    && ls -la bootstrap/cache/ \
-    && echo '=== relevant env ===' \
-    && (env | grep -E 'CACHE|VERCEL' || echo 'no cache/vercel env')
-
-RUN php artisan package:discover --ansi 2>&1
+RUN php artisan package:discover --ansi
 
 RUN chown -R www-data:www-data storage bootstrap/cache
 
