@@ -8,7 +8,7 @@ use Illuminate\Foundation\Configuration\Middleware;
 use Illuminate\Http\Middleware\AddLinkHeadersForPreloadedAssets;
 use Illuminate\Http\Request;
 
-return Application::configure(basePath: dirname(__DIR__))
+$app = Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
         web: __DIR__.'/../routes/web.php',
         commands: __DIR__.'/../routes/console.php',
@@ -43,3 +43,15 @@ return Application::configure(basePath: dirname(__DIR__))
             fn (Request $request) => $request->is('api/*') || $request->expectsJson(),
         );
     })->create();
+
+/*
+ * Filesystem Vercel bersifat read-only kecuali /tmp. Tanpa override ini,
+ * cache bootstrap, compiled view, dan session file gagal ditulis dan
+ * setiap request jatuh 500. Storage path dipindah sementara ke /tmp
+ * hanya ketika berjalan di runtime serverless.
+ */
+if (getenv('VERCEL')) {
+    $app->useStoragePath(sys_get_temp_dir());
+}
+
+return $app;
