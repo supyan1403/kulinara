@@ -5,7 +5,7 @@ import RecipeCard from '@/Components/RecipeCard';
 import SiteFooter from '@/Components/SiteFooter';
 import SiteHeader from '@/Components/SiteHeader';
 import { Head, Link } from '@inertiajs/react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 /* ───────────────────────── Ikon (SVG inline, tanpa font eksternal) ───────────────────────── */
 
@@ -122,15 +122,6 @@ export default function Welcome({
 }) {
     const user = auth?.user;
     const [openFaq, setOpenFaq] = useState(0);
-
-    /* Pemutar intro (opsi C): fullscreen, tutup dengan Esc/klik latar */
-    const [intro, setIntro] = useState(false);
-    useEffect(() => {
-        if (!intro) return;
-        const onKey = (e) => { if (e.key === 'Escape') setIntro(false); };
-        addEventListener('keydown', onKey);
-        return () => removeEventListener('keydown', onKey);
-    }, [intro]);
 
     // Pemetaan value enum -> label Indonesia, agar kartu memakai sumber yang sama.
     const labelKategori = Object.fromEntries(kategoriTersedia.map((k) => [k.value, k.label]));
@@ -326,92 +317,6 @@ export default function Welcome({
                         </div>
                     </div>
                 </section>
-
-                {/* ───────── Intro motion (video promo 45 dtk) ───────── */}
-                <section id="intro" className="relative z-10 text-charcoal">
-                    <div className="mx-auto max-w-shell px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
-                        <Reveal className="flex flex-wrap items-end justify-between gap-6">
-                            <div className="max-w-2xl">
-                                <span className="font-mono text-xs font-semibold uppercase tracking-wider text-primary">
-                                    Intro
-                                </span>
-                                <h2 className="mt-2 text-3xl font-extrabold tracking-tight">
-                                    Lihat Kulinara Bergerak
-                                </h2>
-                                <p className="mt-3 font-body text-base leading-relaxed text-muted">
-                                    Empat puluh lima detik dari satu piring ke seluruh dapur —
-                                    cari resep, simpan favoritmu, dan buka dapurmu sendiri.
-                                </p>
-                            </div>
-                            <button
-                                type="button"
-                                onClick={() => setIntro(true)}
-                                className="inline-flex min-h-11 items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-white shadow-raised transition hover:bg-primary-dark"
-                            >
-                                <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                    <path d="M8 5.5v13l11-6.5-11-6.5z" />
-                                </svg>
-                                Putar intro
-                            </button>
-                        </Reveal>
-
-                        <Reveal delay={120}>
-                            <button
-                                type="button"
-                                onClick={() => setIntro(true)}
-                                aria-label="Putar video intro Kulinara"
-                                className="group relative mt-8 block w-full overflow-hidden rounded-3xl border border-border bg-linen shadow-card transition hover:-translate-y-1 hover:shadow-raised focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
-                            >
-                                <img
-                                    src="/video/kulinara-promo.jpg"
-                                    alt="Cuplikan video intro Kulinara"
-                                    className="block w-full transition duration-500 group-hover:scale-[1.02]"
-                                    loading="lazy"
-                                />
-                                <span className="absolute inset-0 flex items-center justify-center bg-charcoal/25 transition group-hover:bg-charcoal/35">
-                                    <span className="flex h-20 w-20 items-center justify-center rounded-full bg-surface/95 shadow-raised">
-                                        <svg className="ml-1 h-8 w-8 text-primary" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                            <path d="M8 5.5v13l11-6.5-11-6.5z" />
-                                        </svg>
-                                    </span>
-                                </span>
-                                <span className="absolute bottom-4 left-4 rounded-full bg-surface/90 px-3 py-1 font-mono text-[11px] font-semibold uppercase tracking-wider text-muted ring-1 ring-inset ring-border">
-                                    45 detik · bersuara
-                                </span>
-                            </button>
-                        </Reveal>
-                    </div>
-                </section>
-
-                {/* ───────── Pemutar video fullscreen ───────── */}
-                {intro && (
-                    <div
-                        className="fixed inset-0 z-[60] flex items-center justify-center bg-black/95 p-4 sm:p-8"
-                        onClick={() => setIntro(false)}
-                        role="dialog"
-                        aria-modal="true"
-                        aria-label="Video intro Kulinara"
-                    >
-                        <video
-                            src="/video/kulinara-promo.mp4"
-                            controls
-                            autoPlay
-                            playsInline
-                            className="w-full max-w-6xl rounded-2xl shadow-overlay"
-                            onClick={(e) => e.stopPropagation()}
-                        />
-                        <button
-                            type="button"
-                            onClick={() => setIntro(false)}
-                            aria-label="Tutup video"
-                            className="absolute right-4 top-4 flex h-11 w-11 items-center justify-center rounded-full bg-surface/90 text-charcoal shadow-raised transition hover:bg-surface sm:right-6 sm:top-6"
-                        >
-                            <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
-                                <path d="M6 6l12 12M18 6L6 18" />
-                            </svg>
-                        </button>
-                    </div>
-                )}
 
                 {/* ───────── FAQ ───────── */}
                 <section id="faq" className="relative z-10 text-charcoal">
