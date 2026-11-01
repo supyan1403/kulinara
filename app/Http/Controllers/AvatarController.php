@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Services\SupabaseStorage;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
@@ -15,8 +16,9 @@ use Illuminate\Support\Facades\File;
  * PHP akan gagal diam-diam. Server tetap memeriksa jenis dan ukuran berkas —
  * percayai klien hanya untuk kenyamanan, jangan untuk keamanan.
  *
- * Berkas disimpan di public/images/avatar/ dengan path relatif, mengikuti
- * aturan yang sama dengan gambar resep.
+ * Berkas baru disimpan di bucket Supabase Storage (`uploads/avatar/`) dan
+ * kolom `avatar_path` berisi URL publik permanen. Nilai lama yang masih
+ * relatif (`images/avatar/...`) tetap berlaku — dilayani dari public/.
  */
 class AvatarController extends Controller
 {
@@ -35,12 +37,10 @@ class AvatarController extends Controller
         ]);
 
         $user = $request->user();
-        $berkas = $request->file('avatar');
-        $nama = $berkas->hashName();
-        $berkas->move(public_path('images/avatar'), $nama);
+        $url = SupabaseStorage::make()->upload($request->file('avatar'), 'avatar');
 
         $this->hapus($user);
-        $user->update(['avatar_path' => 'images/avatar/'.$nama]);
+        $user->update(['avatar_path' => $url]);
 
         return back()->with('success', 'Foto profil diperbarui.');
     }
@@ -62,14 +62,21 @@ class AvatarController extends Controller
     }
 
     /**
-     * Hapus berkas foto lama dari disk.
+     * Hapus berkas foto lama — dari bucket Supabase (unggahan baru)
+     * atau dari public/ (unggahan lama yang masih path relatif).
      */
     private function hapus(User $user): void
     {
         $path = $user->avatar_path;
 
-        if ($path !== null && str_starts_with($path, 'images/avatar/')) {
+        if ($path === null) {
+            return;
+        }
+
+        if (str_starts_with($path, 'images/avatar/')) {
             File::delete(public_path($path));
+        } else {
+            SupabaseStorage::make()->delete($path);
         }
     }
 }

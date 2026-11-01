@@ -12,6 +12,7 @@ use App\Models\Bahan;
 use App\Models\Resep;
 use App\Models\User;
 use App\Services\KalkulasiGizi;
+use App\Services\SupabaseStorage;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
@@ -316,15 +317,14 @@ class StudioController extends Controller
     }
 
     /**
-     * Pindahkan unggahan ke public/images/resep/.
+     * Simpan unggahan gambar resep ke bucket Supabase Storage.
      *
-     * Sengaja tidak memakai disk `public` Laravel: semua isi kolom `gambar`
-     * (foto bawaan maupun unggahan) jadi path relatif dari root yang sama,
-     * sehingga frontend cukup satu aturan untuk mengubahnya jadi URL.
-     *
-     * Aturan tunggal itu ada di `resources/js/Components/FotoResep.jsx`
-     * (`sumberGambar()`). Jangan menambah pemanggilan <img> lain tanpa
-     * melaluinya — nilai relatif ini akan dihitung terhadap halaman aktif dan
+     * Kolom `gambar` kini berisi dua bentuk: URL absolut (unggahan baru,
+     * Supabase) dan path relatif (foto bawaan images/landing/ serta unggahan
+     * lama). Keduanya diteruskan apa adanya oleh resolver frontend —
+     * `urlGambar()` dan `sumberGambar()` (FotoResep.jsx) sama-sama
+     * mengenali URL absolut. Jangan menambah pemanggilan <img> tanpa
+     * melalui keduanya — path relatif dihitung terhadap halaman aktif dan
      * berujung 404 di rute bersarang seperti /resep/{slug}.
      */
     private function simpanGambar(Request $request): ?string
@@ -333,23 +333,30 @@ class StudioController extends Controller
             return null;
         }
 
-        $berkas = $request->file('gambar');
-        $nama = $berkas->hashName();
-        $berkas->move(public_path('images/resep'), $nama);
-
-        return 'images/resep/'.$nama;
+        // Unggahan baru masuk bucket Supabase Storage — FS container Vercel
+        // read-only kecuali /tmp, jadi tulisan ke public/ tidak durable.
+        // Nilai yang dikembalikan berupa URL publik; frontend meneruskannya
+        // apa adanya lewat urlGambar() yang sudah mengenali URL absolut.
+        return SupabaseStorage::make()->upload($request->file('gambar'), 'resep');
     }
 
     /**
-     * Hapus berkas gambar hasil unggahan.
+     * Hapus berkas gambar hasil unggahan — dari bucket Supabase (unggahan
+     * baru) atau dari public/ (unggahan lama yang masih path relatif).
      *
      * Foto bawaan di images/landing/ sengaja tidak disentuh karena dipakai
      * bersama oleh halaman utama.
      */
     private function hapusGambar(?string $path): void
     {
-        if ($path !== null && str_starts_with($path, 'images/resep/')) {
+        if ($path === null) {
+            return;
+        }
+
+        if (str_starts_with($path, 'images/resep/')) {
             File::delete(public_path($path));
+        } else {
+            SupabaseStorage::make()->delete($path);
         }
     }
 }

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Services\SupabaseStorage;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
@@ -10,9 +11,10 @@ use Illuminate\Support\Facades\File;
 /**
  * Foto sampul (cover) profil pengguna.
  *
- * Serupa dengan AvatarController: berkas disimpan di public/images/cover/
- * dengan path relatif. Server tidak memasang GD, sehingga pemangkasan
- * dipegang di browser/klien.
+ * Serupa dengan AvatarController: unggahan baru disimpan di bucket
+ * Supabase Storage (`uploads/cover/`) berupa URL publik permanen;
+ * nilai lama yang masih relatif tetap dilayani dari public/. Server
+ * tidak memasang GD, sehingga pemangkasan dipegang di browser/klien.
  */
 class CoverController extends Controller
 {
@@ -28,14 +30,10 @@ class CoverController extends Controller
         ]);
 
         $user = $request->user();
-        $berkas = $request->file('cover');
-        $nama = $berkas->hashName();
-
-        File::ensureDirectoryExists(public_path('images/cover'));
-        $berkas->move(public_path('images/cover'), $nama);
+        $url = SupabaseStorage::make()->upload($request->file('cover'), 'cover');
 
         $this->hapus($user);
-        $user->update(['foto_sampul' => 'images/cover/'.$nama]);
+        $user->update(['foto_sampul' => $url]);
 
         return back()->with('success', 'Foto sampul diperbarui.');
     }
@@ -54,8 +52,14 @@ class CoverController extends Controller
     {
         $path = $user->foto_sampul;
 
-        if ($path !== null && str_starts_with($path, 'images/cover/')) {
+        if ($path === null) {
+            return;
+        }
+
+        if (str_starts_with($path, 'images/cover/')) {
             File::delete(public_path($path));
+        } else {
+            SupabaseStorage::make()->delete($path);
         }
     }
 }
