@@ -55,7 +55,7 @@ RUN mkdir -p \
         storage/logs \
         bootstrap/cache
 
-RUN composer dump-autoload --no-dev --optimize-autoloader --no-scripts
+RUN composer dump-autoload --no-dev -o --no-scripts
 
 # discover jalan saat build supaya error bootstrap ketahuan di sini (log
 # build), bukan senyap di runtime. Cache-nya tetap ditulis ke
