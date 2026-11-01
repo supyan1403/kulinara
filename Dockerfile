@@ -44,14 +44,21 @@ FROM base AS runtime
 # package:discover setelah seluruh aplikasi tersalin (script itu butuh
 # seluruh app, jadi tidak bisa dijalankan di stage dependencies).
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
-COPY --from=dependencies --chown=www-data:www-data /app/vendor ./vendor
+
+# Aplikasi disalin lebih dulu, vendor prod DIPASANG TERAKHIR. .dockerignore
+# tidak selalu dihormati pipeline build container Vercel, sehingga vendor
+# lokal (dev, berisi breeze/pail) bisa ikut ter-copy dan menimpa vendor
+# --no-dev dari stage dependencies — memicu "Class BreezeServiceProvider
+# not found" karena package dev tidak ada di image.
 COPY --chown=www-data:www-data . .
+# .dockerignore tidak selalu dihormati pipeline build container Vercel,
+# jadi file rahasia dibuang eksplisit di sini juga (belt-and-suspenders):
+# .env (APP_KEY + kredensial DB Supabase) dan backup dump database.
+RUN rm -rf vendor bootstrap/cache/*.php .env .env.* backup-*.dump backup-*.sql
+COPY --from=dependencies --chown=www-data:www-data /app/vendor ./vendor
 COPY --from=assets --chown=www-data:www-data /app/public/build ./public/build
 
-# Buang cache bootstrap hasil build lokal (berisi provider package dev +
-# path Windows) — kalau ikut terbaca, Laravel gagal register provider.
-RUN rm -f bootstrap/cache/*.php \
-    && mkdir -p \
+RUN mkdir -p \
         storage/framework/cache \
         storage/framework/sessions \
         storage/framework/views \
@@ -60,9 +67,15 @@ RUN rm -f bootstrap/cache/*.php \
 
 RUN composer dump-autoload --no-dev -o --no-scripts
 
-# discover jalan saat build supaya error bootstrap ketahuan di sini (log
-# build), bukan senyap di runtime. Cache-nya tetap ditulis ke
-# bootstrap/cache yang writable di image.
+# Debug sekali pakai: buktikan isi installed.json, bootstrap/cache, dan env
+# persis saat artisan discover dijalankan.
+RUN echo '=== installed.json dev pkg check ===' \
+    && php -r '$j=json_decode(file_get_contents("vendor/composer/installed.json"),true); $names=array_column($j["packages"]??[], "name"); echo "total packages: ".count($names)."\n"; foreach($names as $n){ if(preg_match("#breeze|pail|pao#",$n)) echo "FOUND: $n\n"; }' \
+    && echo '=== bootstrap/cache listing ===' \
+    && ls -la bootstrap/cache/ \
+    && echo '=== relevant env ===' \
+    && (env | grep -E 'CACHE|VERCEL' || echo 'no cache/vercel env')
+
 RUN php artisan package:discover --ansi 2>&1
 
 RUN chown -R www-data:www-data storage bootstrap/cache
