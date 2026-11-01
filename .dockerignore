@@ -11,10 +11,13 @@ motion
 video
 screenshots
 tmp
-storage/logs/*.log
+# Cache bootstrap/storage dari build lokal berisi path absolut Windows
+# (D:\...) — ikut ke image merusak package manifest Laravel di container.
+bootstrap/cache/*.php
 storage/framework/cache/*
 storage/framework/sessions/*
 storage/framework/views/*
+storage/logs/*.log
 backup-*.dump
 backup-*.sql
 9r_models.json

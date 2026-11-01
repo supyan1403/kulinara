@@ -56,10 +56,7 @@ RUN mkdir -p \
 
 RUN composer dump-autoload --no-dev --classmap-authoritative --no-scripts
 
-# package:discover diakhiri `|| true` sadar: hasilnya (bootstrap/cache/packages.php)
-# hanya cache — Laravel menemukan package lagi saat runtime karena
-# bootstrap/cache writable oleh www-data. Build tidak boleh gagal karenanya.
-RUN php artisan package:discover --ansi -vvv 2>&1 || true
+RUN php artisan package:discover --ansi -vvv 2>&1
 
 RUN chown -R www-data:www-data storage bootstrap/cache
 
