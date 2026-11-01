@@ -39,6 +39,10 @@ RUN npm run build
 
 FROM base AS runtime
 
+# Binary composer ikut dibawa: stage runtime menjalankan dump-autoload +
+# package:discover setelah seluruh aplikasi tersalin (script itu butuh
+# seluruh app, jadi tidak bisa dijalankan di stage dependencies).
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 COPY --from=dependencies --chown=www-data:www-data /app/vendor ./vendor
 COPY --chown=www-data:www-data . .
 COPY --from=assets --chown=www-data:www-data /app/public/build ./public/build
