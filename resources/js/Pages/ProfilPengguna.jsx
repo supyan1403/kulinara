@@ -184,9 +184,9 @@ export default function ProfilPengguna({
                 </div>
             </div>
 
-            <div className="mx-auto max-w-shell px-4 pt-6 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-shell px-3 pt-6 sm:px-4 lg:px-6 xl:px-8">
                 {/* ── Kartu identitas ── */}
-                <div className="relative z-10 -mt-12 rounded-2xl border border-border bg-surface p-5 shadow-card sm:-mt-16 sm:p-8">
+                <div className="relative z-10 -mt-10 rounded-2xl border border-border bg-surface p-4 shadow-card sm:-mt-16 sm:p-6 lg:p-8">
                     <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between sm:gap-6">
                         <div className="flex items-start gap-4 sm:gap-6">
                             <AvatarInisial
@@ -423,7 +423,7 @@ export default function ProfilPengguna({
                                   : 'Belum membagikan resep yang sudah terbit.'}
                         </p>
                     ) : (
-                        <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+                        <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
                             {kartuTerlihat.map((r) => (
                                 <RecipeCard
                                     key={r.id}
