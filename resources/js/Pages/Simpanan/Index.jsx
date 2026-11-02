@@ -13,7 +13,7 @@ import { Head, Link, router } from '@inertiajs/react';
  * Dipaginasi di server (12 per halaman) — tanpa ini koleksi yang sudah
  * puluhan resep membuat halaman terlalu panjang ke bawah.
  */
-export default function SimpananIndex({ resep, kategoriTersedia = [], paginasi = null }) {
+export default function SimpananIndex({ resep, kategoriTersedia = [], paginasi = null, resepDisimpan = [] }) {
     const labelKategori = Object.fromEntries(
         kategoriTersedia.map((k) => [k.value, k.label]),
     );
@@ -68,6 +68,7 @@ export default function SimpananIndex({ resep, kategoriTersedia = [], paginasi =
                                     key={recipe.slug}
                                     recipe={recipe}
                                     labelKategori={labelKategori}
+                                    disimpan={resepDisimpan.includes(recipe.id)}
                                 />
                             ))}
                         </div>

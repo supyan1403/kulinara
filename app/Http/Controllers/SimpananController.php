@@ -54,6 +54,11 @@ class SimpananController extends Controller
         return Inertia::render('Simpanan/Index', [
             'kategoriTersedia' => KategoriResep::untukProps(),
             'resep' => $resep,
+            // ID resep yang disimpan pengguna yang login — dipakai RecipeCard
+            // untuk mengisi icon bookmark per resep, supaya tampilan di sini
+            // konsisten dengan halaman profil: resep tersimpan = bookmark
+            // penuh, resep lain = outline.
+            'resepDisimpan' => $request->user()->simpanan()->pluck('resep_id')->all(),
             // Info paginasi untuk navigasi bawah — `linkCollection()` memberi
             // daftar {url, label, active} siap pakai di React, sama seperti
             // yang dipakai halaman /cari.
