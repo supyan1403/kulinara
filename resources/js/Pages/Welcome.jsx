@@ -5,7 +5,7 @@ import RecipeCard from '@/Components/RecipeCard';
 import SiteFooter from '@/Components/SiteFooter';
 import SiteHeader from '@/Components/SiteHeader';
 import { Head, Link } from '@inertiajs/react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { useRef, useState } from 'react';
 
 /* ───────────────────────── Ikon (SVG inline, tanpa font eksternal) ───────────────────────── */
@@ -138,12 +138,13 @@ export default function Welcome({
         ...(kategoriAktif ? { kategori: kategoriAktif } : {}),
     });
 
-    // Parallax hero
+    // Parallax hero + scroll-driven effects
     const { scrollY } = useScroll();
     const heroY = useTransform(scrollY, [0, 500], [0, -80]);
     const heroOpacity = useTransform(scrollY, [0, 400], [1, 0]);
     const blobY1 = useTransform(scrollY, [0, 500], [0, 40]);
     const blobY2 = useTransform(scrollY, [0, 500], [0, -30]);
+    const heroScale = useTransform(scrollY, [0, 400], [1, 1.05]);
 
     return (
         <>
@@ -167,8 +168,8 @@ export default function Welcome({
                 <section className="relative z-10 flex min-h-screen items-center overflow-hidden bg-warm-cream">
                     {/* Latar belakang hero */}
                     <motion.div
-                        style={{ y: heroY, opacity: heroOpacity, backgroundImage: "url('/images/landing/hero-background.png')" }}
-                        className="absolute inset-0 bg-cover bg-center"
+                        style={{ y: heroY, opacity: heroOpacity, scale: heroScale, backgroundImage: "url('/images/landing/hero-background.png')" }}
+                        className="absolute inset-0 bg-cover bg-center origin-center"
                         aria-hidden="true"
                     />
                     {/* Selimut krem supaya teks tetap terbaca di atas foto */}
@@ -259,9 +260,17 @@ export default function Welcome({
                     {resep.length > 0 ? (
                         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
                             {resep.map((recipe, i) => (
-                                <Reveal key={recipe.slug} delay={80 + i * 70} className="h-full">
+                                <motion.div
+                                    key={recipe.slug}
+                                    initial={{ opacity: 0, y: 30, scale: 0.95 }}
+                                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                                    viewport={{ once: true, margin: '-50px' }}
+                                    transition={{ delay: i * 0.1, type: 'spring', stiffness: 70 }}
+                                    whileHover={{ scale: 1.03, y: -8, transition: { type: 'spring', stiffness: 200 } }}
+                                    className="h-full"
+                                >
                                     <RecipeCard recipe={recipe} labelKategori={labelKategori} />
-                                </Reveal>
+                                </motion.div>
                             ))}
                         </div>
                     ) : (
@@ -300,13 +309,24 @@ export default function Welcome({
                             {EKOSISTEM.map((entri, i) => {
                                 const RoleIcon = entri.icon;
                                 return (
-                                    <Reveal key={entri.name} delay={i * 90} className="h-full">
-                                        <div className="h-full rounded-2xl border border-border bg-surface p-6 shadow-card transition hover:-translate-y-0.5 hover:shadow-raised">
-                                            <div
+                                    <motion.div
+                                        key={entri.name}
+                                        initial={{ opacity: 0, y: 30, rotateX: 10 }}
+                                        whileInView={{ opacity: 1, y: 0, rotateX: 0 }}
+                                        viewport={{ once: true, margin: '-60px' }}
+                                        transition={{ delay: i * 0.15, type: 'spring', stiffness: 65 }}
+                                        whileHover={{ scale: 1.02, y: -4, rotateZ: 0.5, boxShadow: '0 20px 40px -15px rgba(0,0,0,0.08)' }}
+                                        className="h-full"
+                                    >
+                                        <div className="h-full rounded-2xl border border-border bg-surface p-6 shadow-card">
+                                            <motion.div
+                                                initial={{ scale: 0.8 }}
+                                                whileInView={{ scale: 1 }}
+                                                transition={{ delay: i * 0.15 + 0.2, type: 'spring', bounce: 0.5 }}
                                                 className={`flex h-11 w-11 items-center justify-center rounded-xl ring-1 ring-inset ring-border ${entri.iconTone}`}
                                             >
                                                 <RoleIcon className="h-5 w-5" />
-                                            </div>
+                                            </motion.div>
 
                                             {/* Penanda "Peran"/"Proses" ini beban
                                                 penting: tanpanya kartu ketiga kembali
@@ -320,7 +340,7 @@ export default function Welcome({
                                                 {entri.desc}
                                             </p>
                                         </div>
-                                    </Reveal>
+                                    </motion.div>
                                 );
                             })}
                         </div>
@@ -348,12 +368,20 @@ export default function Welcome({
                                 {FAQ.map((item, i) => {
                                     const open = openFaq === i;
                                     return (
-                                        <div key={item.q}>
-                                            <button
+                                        <motion.div
+                                            key={item.q}
+                                            initial={{ opacity: 0, x: 20 }}
+                                            whileInView={{ opacity: 1, x: 0 }}
+                                            viewport={{ once: true, margin: '-30px' }}
+                                            transition={{ delay: i * 0.1 }}
+                                        >
+                                            <motion.button
                                                 type="button"
                                                 onClick={() => setOpenFaq(open ? -1 : i)}
                                                 aria-expanded={open}
                                                 className="flex w-full items-center justify-between gap-4 py-5 text-left"
+                                                whileHover={{ x: 4 }}
+                                                whileTap={{ scale: 0.98 }}
                                             >
                                                 <span
                                                     className={`font-semibold transition ${
@@ -362,27 +390,32 @@ export default function Welcome({
                                                 >
                                                     {item.q}
                                                 </span>
-                                                <IconChevron
-                                                    className={`h-5 w-5 shrink-0 text-muted transition-transform duration-300 ${
-                                                        open ? 'rotate-180 text-primary' : ''
-                                                    }`}
-                                                />
-                                            </button>
+                                                <motion.div
+                                                    animate={{ rotate: open ? 180 : 0 }}
+                                                    transition={{ type: 'spring', stiffness: 200 }}
+                                                >
+                                                    <IconChevron
+                                                        className={`h-5 w-5 shrink-0 text-muted ${open ? 'text-primary' : ''}`}
+                                                    />
+                                                </motion.div>
+                                            </motion.button>
 
-                                            <div
-                                                className={`grid transition-all duration-300 ease-out ${
-                                                    open
-                                                        ? 'grid-rows-[1fr] opacity-100'
-                                                        : 'grid-rows-[0fr] opacity-0'
-                                                }`}
-                                            >
-                                                <div className="overflow-hidden">
-                                                    <p className="pb-5 font-body text-sm leading-relaxed text-muted">
-                                                        {item.a}
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                            <AnimatePresence>
+                                                {open && (
+                                                    <motion.div
+                                                        initial={{ height: 0, opacity: 0 }}
+                                                        animate={{ height: 'auto', opacity: 1 }}
+                                                        exit={{ height: 0, opacity: 0 }}
+                                                        transition={{ duration: 0.3, ease: 'easeOut' }}
+                                                        className="overflow-hidden"
+                                                    >
+                                                        <p className="pb-5 font-body text-sm leading-relaxed text-muted">
+                                                            {item.a}
+                                                        </p>
+                                                    </motion.div>
+                                                )}
+                                            </AnimatePresence>
+                                        </motion.div>
                                     );
                                 })}
                             </Reveal>
