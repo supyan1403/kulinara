@@ -37,7 +37,7 @@ export default function ProfilPengguna({
 }) {
     const { auth } = usePage().props;
     const isOwn = auth?.user?.id === pengguna.id || auth?.user?.username === pengguna.username;
-    const [tab, setTab] = useState(mode === 'koleksi' ? 'disukai' : 'terbaru');
+    const [tab, setTab] = useState(mode === 'koleksi' ? 'disimpan' : 'terbaru');
 
     // Halaman aktif untuk grid — direset tiap pindah tab supaya pembaca
     // tidak terjebak di halaman kosong saat tab barunya lebih pendek.
@@ -76,6 +76,7 @@ export default function ProfilPengguna({
     //  - `publik` (profil orang lain): etalase resep buatan pemilik,
     //    diurutkan menurut tab masing-masing.
     const labelTab = {
+        disimpan: 'Disimpan',
         disukai: 'Disukai',
         terbaru: 'Terbaru',
         unggulan: 'Unggulan',
@@ -83,11 +84,11 @@ export default function ProfilPengguna({
 
     const daftarTab =
         mode === 'koleksi'
-            ? ['disukai', 'unggulan'].filter(
+            ? ['disimpan', 'disukai', 'unggulan'].filter(
                   // Tab Unggulan hanya muncul kalau memang ada isinya.
                   (kunci) => kunci !== 'unggulan' || unggulan.length > 0,
               )
-            : ['terbaru', 'unggulan', 'disukai', 'disimpan'].filter(
+            : ['terbaru', 'unggulan', 'disukai'].filter(
                   // Tab Unggulan hanya muncul kalau memang ada isinya — profil tanpa
                   // resep tidak menampilkan tab yang pasti kosong.
                   (kunci) => kunci !== 'unggulan' || unggulan.length > 0,
@@ -124,7 +125,7 @@ export default function ProfilPengguna({
                 ? resepDisukai
                 : tab === 'unggulan'
                   ? unggulan
-                  : resepDisukai
+                  : resepTersimpan
             : tab === 'unggulan'
               ? unggulan
               : urutkan(resep);

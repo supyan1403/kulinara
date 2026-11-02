@@ -25,9 +25,6 @@ const NAV_MASUK = [
     // Telusuri didahulukan atas Dashboard secara konsep: bagi Pengguna,
     // menelusuri katalog itulah kegiatan utamanya, bukan membaca statistik.
     { label: 'Telusuri Resep', rute: 'resep.index' },
-    // Tersimpan terbuka untuk semua peran, termasuk Pengguna — ini
-    // satu-satunya ruang pribadi yang dimiliki pembaca.
-    { label: 'Tersimpan', rute: 'simpanan.index' },
     { label: 'Cari', rute: 'cari.index' },
 ];
 
