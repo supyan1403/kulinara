@@ -34,6 +34,7 @@ export default function RecipeCard({
     labelKategori = {},
     className = '',
     tampilkanPenulis = true,
+    disimpan = false,
 }) {
     // Tag = label kategori dari enum (bukan value mentahnya).
     //
@@ -241,7 +242,7 @@ export default function RecipeCard({
                                     className="ml-2 inline-flex shrink-0 items-center gap-1 text-xs text-muted"
                                     title="Jumlah orang yang menyimpan resep ini"
                                 >
-                                    <IconBookmark className="h-4 w-4" />
+                                    <IconBookmark className="h-4 w-4" isi={disimpan} />
                                     <span className="font-mono font-semibold tabular-nums">
                                         {jumlahSimpanan}
                                     </span>
