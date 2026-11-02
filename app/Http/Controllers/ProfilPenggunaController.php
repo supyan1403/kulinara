@@ -38,6 +38,18 @@ class ProfilPenggunaController extends Controller
         $pengguna = User::where('username', $username)->firstOrFail();
         $auth = $request->user();
 
+        // ── Daftar resep yang SUDAH disimpan oleh user yang sedang login ──
+        // Dipakai di RecipeCard supaya icon bookmark (fill/outline) mencerminkan
+        // keadaan nyata: user menyimpan resep ini atau belum. Tanpa ini, kartu
+        // selalu menampilkan bookmark outline — terlihat seperti tombol
+        // simpan yang tidak pernah di-klik.
+        $resepDisimpan = $auth
+            ? $auth->simpanan()
+                ->whereHas('resep', fn ($q) => $q->terbit())
+                ->pluck('resep_id')
+                ->all()
+            : [];
+
         // ── Profil sendiri ──
         // Yang dilihat pemilik akun di profilnya adalah KOLEKSI pribadinya:
         // resep yang ia simpan + resep yang ia sukai. Bukan etalase resep
@@ -91,6 +103,7 @@ class ProfilPenggunaController extends Controller
                 'mode' => 'koleksi',
                 'resepTersimpan' => $tersimpan,
                 'resepDisukai' => $disukai,
+                'resepDisimpan' => $resepDisimpan,
                 'unggulan' => $unggulanKoleksi,
                 'koleksi' => $koleksi,
                 'rataRating' => null,
@@ -168,6 +181,7 @@ class ProfilPenggunaController extends Controller
             ]),
             'mode' => 'publik',
             'resep' => $resep,
+            'resepDisimpan' => $resepDisimpan,
             'unggulan' => $unggulan,
             'rataRating' => $rataRating,
             'jumlahResep' => $jumlahResep,

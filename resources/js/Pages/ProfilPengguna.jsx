@@ -31,6 +31,7 @@ export default function ProfilPengguna({
     mode = 'publik',
     resepTersimpan = [],
     resepDisukai = [],
+    resepDisimpan = [], // array of recipe IDs saved by current user
     koleksi = [],
     statsKoleksi = null,
 }) {
@@ -434,6 +435,9 @@ export default function ProfilPengguna({
                                     // Mode publik tetap menyembunyikan karena semua
                                     // resep milik pemilik profil sendiri.
                                     tampilkanPenulis={mode !== 'koleksi'}
+                                    // Icon bookmark harus terisi (fill) kalau resep
+                                    // ini sudah disimpan oleh user yang sedang login.
+                                    disimpan={resepDisimpan?.includes(r.id) ?? false}
                                 />
                             ))}
                         </div>
