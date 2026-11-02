@@ -9,6 +9,7 @@ import Logo from '@/Components/Logo';
 import NavLink from '@/Components/NavLink';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
 import { Link, usePage } from '@inertiajs/react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
 
 // Tautan ruang kerja untuk pengguna yang sudah masuk. Daftar ini dulu hidup
@@ -60,6 +61,7 @@ export default function SiteHeader({ user, canLogin, canRegister, beranda = fals
     const permissions = auth?.permissions ?? {};
     const [menuTerbuka, setMenuTerbuka] = useState(false);
     const tombolMenuRef = useRef(null);
+    const headerRef = useRef(null);
 
     /**
      * Menu seluler mengunci halaman di belakangnya.
@@ -136,6 +138,12 @@ export default function SiteHeader({ user, canLogin, canRegister, beranda = fals
     // baris pertama, jadi bilah tidak boleh mengambil 64px ruang.
     const [scrolled, setScrolled] = useState(false);
 
+    // Scroll-driven header shrink
+    const { scrollY } = useScroll();
+    const headerHeight = useTransform(scrollY, [0, 200], [64, 56]);
+    const headerPadding = useTransform(scrollY, [0, 200], [16, 12]);
+    const headerBlur = useTransform(scrollY, [0, 100], [0, 20]);
+
     useEffect(() => {
         if (beranda) {
             const handleScroll = () => {
@@ -201,10 +209,12 @@ export default function SiteHeader({ user, canLogin, canRegister, beranda = fals
             : 'bg-warm-cream/80 backdrop-blur-xl';
 
     return (
-        <header
+        <motion.header
+            ref={headerRef}
+            style={{ height: headerHeight, backdropFilter: `blur(${headerBlur}px)` }}
             className={`z-40 transition-all duration-300 ease-out motion-reduce:transition-none ${kelasTempel} ${kelasBentuk} ${kelasLatar}`}
         >
-            <div className="mx-auto flex h-16 max-w-shell items-center justify-between px-4 sm:px-6 lg:px-8">
+            <motion.div style={{ paddingTop: headerPadding, paddingBottom: headerPadding }} className="mx-auto flex h-full max-w-shell items-center justify-between px-4 sm:px-6 lg:px-8">
                 <div className="flex min-w-0 items-center">
                     <Link href="/" className="flex shrink-0 items-center gap-2">
                         <Logo className="h-8 w-8" />
@@ -411,7 +421,7 @@ export default function SiteHeader({ user, canLogin, canRegister, beranda = fals
                         </button>
                     </div>
                 </div>
-            </div>
+            </motion.div>
 
             {menuTerbuka && (
                 <>
@@ -526,6 +536,6 @@ export default function SiteHeader({ user, canLogin, canRegister, beranda = fals
                     </div>
                 </>
             )}
-        </header>
+        </motion.header>
     );
 }
