@@ -423,7 +423,7 @@ export default function ProfilPengguna({
                                   : 'Belum membagikan resep yang sudah terbit.'}
                         </p>
                     ) : (
-                        <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
+                        <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4">
                             {kartuTerlihat.map((r) => (
                                 <RecipeCard
                                     key={r.id}
