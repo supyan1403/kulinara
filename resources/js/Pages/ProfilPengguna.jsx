@@ -407,9 +407,19 @@ export default function ProfilPengguna({
                         {mode === 'koleksi' && (
                             <Link
                                 href={route('studio.index')}
-                                className="inline-flex items-center gap-1.5 rounded-lg border border-border bg-surface px-3 py-1.5 text-xs font-semibold text-charcoal transition hover:bg-linen"
+                                className="group inline-flex items-center gap-1.5 rounded-full border border-primary/30 bg-primary/5 px-3.5 py-1.5 text-xs font-semibold text-primary transition-all hover:border-primary/50 hover:bg-primary/10 hover:shadow-sm active:scale-[0.98]"
                             >
-                                Resep buatan saya → Studio Dapur
+                                Kelola resep di Studio Dapur
+                                <svg
+                                    className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    strokeWidth="2"
+                                    viewBox="0 0 24 24"
+                                    aria-hidden="true"
+                                >
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                </svg>
                             </Link>
                         )}
                     </div>
