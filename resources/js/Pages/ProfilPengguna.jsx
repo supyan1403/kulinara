@@ -291,7 +291,7 @@ export default function ProfilPengguna({
                                          pribadi, dan suka profil yang diterima
                              - publik  : resep terbit, suka profil, suka masakan
                         */}
-                        <div className="grid w-full grid-cols-3 divide-x divide-border rounded-xl border border-border bg-linen/60 sm:w-auto sm:min-w-[300px]">
+                        <div className="grid w-full min-w-0 overflow-hidden grid-cols-3 divide-x divide-border rounded-xl border border-border bg-linen/60 sm:w-auto sm:min-w-[300px]">
                             {(mode === 'koleksi'
                                 ? [
                                       { angka: statsKoleksi?.disimpan ?? jumlahResep, label: 'disimpan' },
