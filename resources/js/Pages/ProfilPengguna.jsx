@@ -407,7 +407,7 @@ export default function ProfilPengguna({
                         {mode === 'koleksi' && (
                             <Link
                                 href={route('studio.index')}
-                                className="group inline-flex items-center gap-1.5 rounded-full border border-primary/30 bg-primary/5 px-3.5 py-1.5 text-xs font-semibold text-primary transition-all hover:border-primary/50 hover:bg-primary/10 hover:shadow-sm active:scale-[0.98]"
+                                className="group inline-flex items-center gap-1.5 rounded-xl border border-primary/30 bg-primary/5 px-3.5 py-1.5 text-xs font-semibold text-primary transition-all hover:border-primary/50 hover:bg-primary/10 hover:shadow-sm active:scale-[0.98]"
                             >
                                 Kelola di Studio Dapur
                                 <svg
