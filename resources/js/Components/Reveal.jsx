@@ -1,64 +1,52 @@
-import { useEffect, useRef, useState } from 'react';
+import { motion, useInView } from 'framer-motion';
+import { useRef } from 'react';
 
 /**
  * Elemen yang muncul perlahan ketika masuk ke viewport.
  *
- * Memakai IntersectionObserver bawaan browser — tanpa dependensi tambahan.
- * Ada dua jaring pengaman supaya konten tidak pernah terkunci transparan:
- *   1. browser tanpa IntersectionObserver  -> langsung tampil
- *   2. pengamat tak pernah memicu          -> tampil juga setelah 10 detik
- *
- * Pengguna dengan preferensi "reduce motion" mendapat elemen tanpa animasi.
+ * Memakai Framer Motion: useInView untuk deteksi viewport, motion.div untuk
+ * animasi. Tetap menjaga fallback untuk browser tanpa JS/motion, dan
+ * menghormati preferensi "reduce motion".
  */
+const springPreset = {
+    type: 'spring',
+    stiffness: 80,
+    damping: 18,
+    mass: 0.6,
+};
+
 export default function Reveal({
     as: Tag = 'div',
     delay = 0,
     className = '',
     children,
+    y = 24,
 }) {
-    const rujuk = useRef(null);
-    const [terlihat, setTerlihat] = useState(false);
+    const ref = useRef(null);
+    const MotionTag = Tag === 'div' ? motion.div : motion[Tag];
+    const isInView = useInView(ref, { once: true, margin: '-60px' });
 
-    useEffect(() => {
-        const el = rujuk.current;
+    const prefersReducedMotion =
+        typeof window !== 'undefined' &&
+        window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
 
-        if (!el || typeof IntersectionObserver === 'undefined') {
-            setTerlihat(true);
-
-            return;
-        }
-
-        const pengamat = new IntersectionObserver(
-            (entries) => {
-                if (entries.some((entry) => entry.isIntersecting)) {
-                    setTerlihat(true);
-                    pengamat.disconnect();
-                }
-            },
-            { threshold: 0.15 },
+    if (prefersReducedMotion) {
+        return (
+            <Tag ref={ref} className={className}>
+                {children}
+            </Tag>
         );
-
-        pengamat.observe(el);
-
-        // Jaring pengaman: kalau pengamat tidak pernah memicu (mis. kasus aneh
-        // pada browser tertentu), konten tetap ditampilkan — tapi sengaja
-        // diberi jeda 10 detik supaya animasi reveal saat scroll tetap terasa.
-        const pengaman = setTimeout(() => setTerlihat(true), 10000);
-
-        return () => {
-            pengamat.disconnect();
-            clearTimeout(pengaman);
-        };
-    }, []);
+    }
 
     return (
-        <Tag
-            ref={rujuk}
-            data-reveal
-            style={delay ? { animationDelay: `${delay}ms` } : undefined}
-            className={`${terlihat ? 'animate-fade-up' : 'opacity-0'} motion-reduce:animate-none ${className}`}
+        <MotionTag
+            ref={ref}
+            initial={{ opacity: 0, y }}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y }}
+            transition={{ ...springPreset, delay: delay / 1000 }}
+            className={className}
         >
             {children}
-        </Tag>
+        </MotionTag>
     );
 }

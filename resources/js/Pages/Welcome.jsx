@@ -5,7 +5,8 @@ import RecipeCard from '@/Components/RecipeCard';
 import SiteFooter from '@/Components/SiteFooter';
 import SiteHeader from '@/Components/SiteHeader';
 import { Head, Link } from '@inertiajs/react';
-import { useState } from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import { useRef, useState } from 'react';
 
 /* ───────────────────────── Ikon (SVG inline, tanpa font eksternal) ───────────────────────── */
 
@@ -122,6 +123,7 @@ export default function Welcome({
 }) {
     const user = auth?.user;
     const [openFaq, setOpenFaq] = useState(0);
+    const heroRef = useRef(null);
 
     // Pemetaan value enum -> label Indonesia, agar kartu memakai sumber yang sama.
     const labelKategori = Object.fromEntries(kategoriTersedia.map((k) => [k.value, k.label]));
@@ -136,6 +138,13 @@ export default function Welcome({
         ...(kategoriAktif ? { kategori: kategoriAktif } : {}),
     });
 
+    // Parallax hero
+    const { scrollY } = useScroll();
+    const heroY = useTransform(scrollY, [0, 500], [0, -80]);
+    const heroOpacity = useTransform(scrollY, [0, 400], [1, 0]);
+    const blobY1 = useTransform(scrollY, [0, 500], [0, 40]);
+    const blobY2 = useTransform(scrollY, [0, 500], [0, -30]);
+
     return (
         <>
             <Head title="Masak Enak Nusantara, Kenali Gizinya" />
@@ -143,8 +152,8 @@ export default function Welcome({
             <div className="relative min-h-screen bg-warm-cream text-charcoal">
                 {/* Aksen pendar cahaya lembut di area hero */}
                 <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
-                    <div className="absolute -left-24 -top-24 h-96 w-96 rounded-full bg-mint-light/40 blur-3xl" />
-                    <div className="absolute -right-24 top-48 h-96 w-96 rounded-full bg-terracotta/10 blur-3xl" />
+                    <motion.div style={{ y: blobY1 }} className="absolute -left-24 -top-24 h-96 w-96 rounded-full bg-mint-light/40 blur-3xl" />
+                    <motion.div style={{ y: blobY2 }} className="absolute -right-24 top-48 h-96 w-96 rounded-full bg-terracotta/10 blur-3xl" />
                 </div>
 
                 <SiteHeader
@@ -157,15 +166,15 @@ export default function Welcome({
                 {/* ───────── Hero ───────── */}
                 <section className="relative z-10 flex min-h-screen items-center overflow-hidden bg-warm-cream">
                     {/* Latar belakang hero */}
-                    <div
+                    <motion.div
+                        style={{ y: heroY, opacity: heroOpacity, backgroundImage: "url('/images/landing/hero-background.png')" }}
                         className="absolute inset-0 bg-cover bg-center"
-                        style={{ backgroundImage: "url('/images/landing/hero-background.png')" }}
                         aria-hidden="true"
                     />
                     {/* Selimut krem supaya teks tetap terbaca di atas foto */}
                     <div className="absolute inset-0 bg-warm-cream/80" aria-hidden="true" />
 
-                    <div className="relative mx-auto w-full max-w-shell px-4 pb-16 pt-24 sm:px-6 lg:px-8 lg:pb-24 lg:pt-28">
+                    <motion.div style={{ y: heroY }} className="relative mx-auto w-full max-w-shell px-4 pb-16 pt-24 sm:px-6 lg:px-8 lg:pb-24 lg:pt-28">
                         <div className="mx-auto max-w-3xl text-center">
                             <Reveal delay={80}>
                                 <h1 className="text-4xl font-extrabold leading-[1.15] tracking-tight sm:text-5xl lg:text-6xl">
@@ -193,7 +202,7 @@ export default function Welcome({
 
 
                         </div>
-                    </div>
+                    </motion.div>
                 </section>
 
                 {/* ───────── Direktori resep ───────── */}
