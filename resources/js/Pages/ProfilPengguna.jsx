@@ -386,7 +386,7 @@ export default function ProfilPengguna({
                 </div>
 
                 {/* ── Grid resep — SATU blok, judulnya ikut tab aktif ── */}
-                <div id="grid-resep" className="mt-10 scroll-mt-20 pb-28">
+                <div id="grid-resep" className="mt-10 scroll-mt-20 pb-28 overflow-x-hidden">
                     <div className="flex flex-wrap items-center justify-between gap-3">
                         <h2 className="font-display text-xl font-bold tracking-tight text-charcoal">
                             {mode === 'koleksi'
@@ -423,7 +423,7 @@ export default function ProfilPengguna({
                                   : 'Belum membagikan resep yang sudah terbit.'}
                         </p>
                     ) : (
-                        <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4">
+                        <div className="mt-6 grid w-full min-w-0 grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4">
                             {kartuTerlihat.map((r) => (
                                 <RecipeCard
                                     key={r.id}
