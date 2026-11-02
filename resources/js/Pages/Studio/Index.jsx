@@ -139,7 +139,7 @@ export default function StudioIndex({ resep, kategoriTersedia, statistik }) {
             <Head title="Studio Dapur" />
 
             <div className="py-12">
-                <div className="mx-auto max-w-shell space-y-6 sm:px-6 lg:px-8">
+                <div className="mx-auto max-w-shell space-y-6 px-3 sm:px-4 lg:px-6 xl:px-8">
                     {/* Ringkasan singkat */}
                     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
                         {STATISTIK.map((s) => (
@@ -275,7 +275,7 @@ export default function StudioIndex({ resep, kategoriTersedia, statistik }) {
                                         )}
                                     </div>
                                 ) : (
-                                    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                                    <div className="grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3 lg:gap-6 xl:grid-cols-4">
                                         {tampilan.map((r) => (
                                             <article
                                                 key={r.id}
